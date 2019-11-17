@@ -1,0 +1,47 @@
+body{
+    background-color: ghostwhite;
+}
+
+.fond {
+    width: 90%;
+    height: 90%;
+    border: solid 5px #E71D73;
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color: #fefefe;
+}
+
+
+h2,h4,h6,h7,h8,h9{
+    color: #E71D73;
+    font-size: 30px;
+    font-weight: normal;
+    font-family: "Tw center bold";
+}
+
+h1{
+    text-align: center;
+    color: #E71D73;
+    font-size: 50px;
+    font-weight: normal;
+    font-family: "Tw center bold";
+}
+
+h3, h5{
+    color: #E71D73;
+    font-size: 20px;
+    font-family: "Tw center bold";
+}
+
+a:link, a:active, a:any-link{
+    color: #E71D73;
+}
+
+body {
+    width: 860;
+    height: 1024;
+    margin: 225px;
+}
+a, p, li{
+    font-family: "helvetica neue thin";
+}

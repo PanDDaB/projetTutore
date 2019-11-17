@@ -1,1 +1,29 @@
+body{
+    background-color: ghostwhite;
+    width: 860;
+    height: 1024;
+    margin: 225px;
+}
 
+h2,h3, h4,h5, h6{
+    color: #E71D73;
+    font-size: 30px;
+    font-weight: normal;
+    font-family: "Tw center bold";
+}
+
+h1{
+    text-align: center;
+    color: #E71D73;
+    font-size: 50px;
+    font-weight: normal;
+    font-family: "Tw center bold";
+}
+
+a:link, a:active, a:any-link{
+    color: #E71D73;
+}
+
+a, p, li{
+    font-family: "helvetica neue thin";
+}

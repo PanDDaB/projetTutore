@@ -10,33 +10,36 @@
 <h1> PROPOSITION DE STAGE </h1>
  
    <fieldset>
-       <legend>Vos coordonnées</legend> <!-- Titre du fieldset --> 
+       <legend>Vos coordonnées</legend> 
 
-       <p><label for="nom"> Nom Particulier/Entreprise : </label>
+       <p><label class="coordonnees" for="nom"> Nom particulier/Entreprise : </label>
            <input type="text" name="nom" id="nom" /></p>
        
+       <p><label class="coordonnees" for="description"> Description de l'entreprise :</label>
+        <input type="text" name="description" id="description" size="70"> </p>
               
-       <p><label for="email"> Adresse e-mail : </label>
+       <p><label class="coordonnees" for="email"> Adresse e-mail : </label>
            <input type="email" name="email" id="email" /></p>
      
-       <p><label for="requete"> Requête : </label>
+       <p><label class="coordonnees" for="requete"> Requête : </label>
            <input type="text" name="requete" id="requete"></p>
-       
-       <p><label for="date"> Durée: </label>
+   </fieldset>
+
+    <fieldset>
+        <legend> Informations complémentaires </legend>
+        
+        <form method="post" action="traitement.php">
+            
+        <p><label for="date"> Durée: </label>
            <select name="duree" id="duree">
                <option value="rien"></option>
                <option value="janvier-avril">Début janvier à fin avril</option>
                <option value="avril-juin">Début avril à fin juin</option>
                <option value="autre">AUTRE</option>
            </select>
-
-   </fieldset>
-
-    <fieldset>
-        <form method="post" action="traitement.php">
-   <p>
-       <label for="pays"> Pays proposé :</label><br />
-       <select name="pays" id="pays">
+   
+        <p><label for="pays"> Pays proposé :</label><br />
+            <select name="pays" id="pays">
                 <option value="rien"></option>
            <optgroup label="Europe">
                <option value="albanie">Albanie</option>
@@ -248,6 +251,12 @@
            </optgroup>
        </select>
    </p>
+                        
+        <p><label for="fichier"> Joindre un document : </label>
+       <input type="file" name="fichier" id="fichier"> </p>
+            
+            <p> <input type="checkbox" required>
+       <label for="enregistre"> En cliquant sur Envoyer, vous acceptez les Conditions d'utilisation et la Politique de confidentialité.</label></p>
 </form>
     </fieldset>
 <input type="submit" value="Envoyer" />

@@ -12,3 +12,9 @@ h1{
     font-weight: normal;
     font-family: "Tw center bold";
 }
+
+.coordonnees {
+    width: 190px;
+    display: block;
+    float: left;
+}

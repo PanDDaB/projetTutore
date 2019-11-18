@@ -21,6 +21,14 @@
      
        <p><label for="requete"> Requête : </label>
            <input type="text" name="requete" id="requete"></p>
+       
+       <p><label for="date"> Durée: </label>
+           <select name="duree" id="duree">
+               <option value="rien"></option>
+               <option value="janvier-avril">Début janvier à fin avril</option>
+               <option value="avril-juin">Début avril à fin juin</option>
+               <option value="autre">AUTRE</option>
+           </select>
 
    </fieldset>
 
@@ -29,6 +37,7 @@
    <p>
        <label for="pays"> Pays proposé :</label><br />
        <select name="pays" id="pays">
+                <option value="rien"></option>
            <optgroup label="Europe">
                <option value="albanie">Albanie</option>
                <option value="allemagne">Allemagne</option>

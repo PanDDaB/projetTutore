@@ -55,9 +55,7 @@ background-image:-webkit-linear-gradient(top, #CFFF6A 0%, #677F35 100%);
 background-image:linear-gradient(to bottom, #CFFF6A 0%, #677F35 100%);
 }
 /* background des liens sous menus */
-#menu-demo2 li:first-child li{
-background:#2A2333;
-}
+
 #menu-demo2 li:nth-child(2) li{
 background:#333A40;
 }

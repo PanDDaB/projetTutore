@@ -16,13 +16,20 @@
            <input type="text" name="nom" id="nom" /></p>
        
        <p><label class="coordonnees" for="description"> Description de l'entreprise :</label>
-        <input type="text" name="description" id="description" size="70"> </p>
+           <textarea name="description" id="description" rows="7" cols="30"></textarea> </p>
               
        <p><label class="coordonnees" for="email"> Adresse e-mail : </label>
            <input type="email" name="email" id="email" /></p>
      
-       <p><label class="coordonnees" for="requete"> Requête : </label>
-           <input type="text" name="requete" id="requete"></p>
+       <p><label class="coordonnees" for="requete"> Description du stage : </label>
+           <textarea name="requete" id="requete" rows="7" cols="30"></textarea></p>
+       <p><label class="qui" for="qui"> A qui s'adresse le stage ?</label>
+    <select name="qui" id="qui" >
+        <option value="MMI"> MMI</option>
+           <option value="INFO"> INFO</option></select>
+           <option value="TC"> TC</option>
+           <option value="GEA"> GEA</option>
+            </p>
    </fieldset>
 
     <fieldset>

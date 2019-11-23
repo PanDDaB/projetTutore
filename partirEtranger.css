@@ -98,16 +98,22 @@ img{width: 50px;
 }
 #Formation{margin-left: 100px;
     margin-top: 75px;
+    text-decoration: none
 }
 #Internationnal{margin-left: 300px;
-    margin-top: -18px
+    margin-top: -18px;
+    text-decoration: none
 }
 #Vie{margin-left:550px;
-    margin-top:-18px
+    margin-top:-18px;
+    text-decoration: none
 }
 #Entreprise{margin-left: 750px;
     margin-top: -18px;
+    text-decoration: none
 }
 #IUT{margin-left: 950px;
     margin-top: -18px;
+    text-decoration: none
 }
+

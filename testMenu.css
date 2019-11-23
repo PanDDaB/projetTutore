@@ -1,11 +1,5 @@
 
 
-a
-{
-  text-decoration: none; /* on enlève les déco des liens*/
-  color: inherit;
-}
-
 li
 { /* on enlève les déco des listes*/
   list-style-type: none;
@@ -15,21 +9,45 @@ li
 
 #titre
 {
-
-  color: green;
+  color: inherit;
 }
 
 #titre li
 {
   margin-left: 10%;
-  border: 10px ridge rgba(170, 50, 220, .6);
   padding: 10px;
+  margin-bottom: 5px;
+
+    /* Pour la couleur et la forme du menu
+  border: 5px ridge rgba(170, 50, 220);
+  background-color: rgba(170, 50, 220, 0.6);
+  border-radius: 8px 8px 8px 8px;*/
 }
 
+#titre li:hover
+{
+ /*problème: ne prend pas le caouleur jusqu'en haut*/
+border: solid 2px; /* contour des éléments menu*/
+border-radius: 8px 8px 8px 8px;
+  background-color: rgba(170, 50, 220, 0.6);
+}
+
+.formation
+{
+/*background-color: rgba(0, 170, 154);*/
+}
+
+#gros /*changer les couleurs pour chaque titres; forme des titres*/
+{
+  background-color: rgba(170, 50, 220, 0.6);
+padding: 10px;
+border: solid 1px;
+border-radius: 8px 8px 8px 8px;
+}
+
+
 #titre ul{
-position:absolute;
-z-index: 1000;
-max-height:0;
+max-height: 0;
 left: 0;
 right: 0;
 overflow:hidden;
@@ -38,31 +56,30 @@ overflow:hidden;
 transition: .8s all .3s;
 }
 
-
-
-
-
-
-
-
-
-
-
-/* #titre a{
-text-decoration:none;
-display:block;
-padding:8px 32px;
-color:#fff;
-font-family:arial;
+#titre li:hover ul{
+max-height:15em;
 }
 
-#titre ul a{
+
+
+
+
+
+ #titre a{
+text-decoration:none;
+font-family:arial;
+color: inherit;
+}
+ #titre ul a{
 padding:8px 0;
 }
-#titre li:hover li a{
+
+/*#titre li:hover li a{
 color:#fff;
 text-transform:inherit;
-}
+} */
+
+
 #titre li:hover a, #titre li li:hover a{
 color:#000;
-} */
+}

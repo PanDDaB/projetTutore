@@ -3,13 +3,14 @@ body{
     width: 860;
     height: 1024;
     margin: 225px;
+    font-family: helvetica, arial, sans-serif;
 }
 
 h2,h3, h4,h5, h6{
     color: #E71D73;
     font-size: 30px;
     font-weight: normal;
-    font-family: "Tw center bold";
+   /* font-family: "Tw center bold"; */
 }
 
 h1{
@@ -17,7 +18,7 @@ h1{
     color: #E71D73;
     font-size: 50px;
     font-weight: normal;
-    font-family: "Tw center bold";
+/*    font-family: "Tw center bold"; - compatible exclusivement sous mac */
 }
 
 a:link, a:active, a:any-link{
@@ -25,5 +26,24 @@ a:link, a:active, a:any-link{
 }
 
 a, p, li{
-    font-family: "helvetica neue thin";
+/*    font-family: "Tw center bold"; - compatible exclusivement sous mac */
+}
+
+.trait{
+    border-collapse: collapse;
+    border-left: 4px solid #E71D73;
+    padding-left: 50px;
+    margin: auto;
+    border-right: 1px dashed dimgrey;
+    padding-right: 20px;
+}
+#oblic{
+    max-width:  100%;
+    font-weight: 600;
+    color: dimgrey;
+    overflow-x: hidden;
+    padding-top: 10px;
+}
+h5{
+    line-height: 1px;
 }

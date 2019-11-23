@@ -1,0 +1,64 @@
+#grosTitre, #grosTitre ul{ /* centrer le menu*/
+padding:0;
+margin:0;
+list-style:none;
+text-align:center;
+}
+#grosTitre li{ /* espace entre les gros titre et forme*/
+display:inline-block;
+position:relative;
+border-radius:8px 8px 0 0;
+border: solid 2px;
+margin-left: 5%;
+margin-right: 5%;
+padding: 1%;
+}
+#grosTitre ul li{
+display: inherit;
+border-radius:0;
+}
+#grosTitre ul li:hover{
+border-radius:0;
+}
+#grosTitre ul li:last-child{
+border-radius:0 0 8px 8px;
+}
+
+#grosTitre ul{ /*Texte déroulant*/
+position:absolute;
+z-index: 1000;
+max-height:0;
+left: 0;
+right: 0;
+overflow:hidden;
+-moz-transition: .8s all .3s;
+-webkit-transition: .8s all .3s;
+transition: .8s all .3s;
+}
+
+
+#grosTitre li:hover ul{
+max-height:15em;
+}
+#menu-demo2 li:first-child li{
+background:#2A2333;
+}
+
+/* les a href */
+#grosTitre a{
+text-decoration:none;
+display:block;
+padding:8px 32px;
+color:#fff;
+font-family:arial;
+}
+#grosTitre ul a{
+padding:8px 0;
+}
+#grosTitre li:hover li a{
+color:#fff;
+text-transform:inherit;
+}
+#grosTitre li:hover a, #grosTitre li li:hover a{
+color:#000;
+}

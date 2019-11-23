@@ -1,13 +1,14 @@
 body{
     background-color: ghostwhite;
+    width: 860;
+    height: 1024;
+    margin: 225px;
 }
 
 .fond {
     width: 90%;
     height: 90%;
     border: solid 5px #E71D73;
-    margin-right: 5%;
-    margin-left: 5%;
     background-color: #fefefe;
 }
 
@@ -16,7 +17,7 @@ h2,h4,h6,h7,h8,h9{
     color: #E71D73;
     font-size: 30px;
     font-weight: normal;
-    font-family: "Tw center bold";
+/*    font-family: "Tw center bold"; - compatible exclusivement sous mac */
 }
 
 h1{
@@ -24,41 +25,26 @@ h1{
     color: #E71D73;
     font-size: 50px;
     font-weight: normal;
-    font-family: "Tw center bold";
+/*    font-family: "Tw center bold"; - compatible exclusivement sous mac */
 }
 
 h3, h5{
     color: #E71D73;
-    font-size: 20px;
-    font-family: "Tw center bold";
+/*    font-family: "Tw center bold"; - compatible exclusivement sous mac */
 }
 
 a:link, a:active, a:any-link{
     color: #E71D73;
 }
 
-body {
-    width: 860;
-    height: 1024;
-    margin: 225px;
-}
 a, p, li{
-    font-family: "helvetica neue thin";
+    font-family: helvetica, arial, sans-serif;
 }
-footer{;
-}
-#line{border-collapse: collapse;
+.line{border-collapse: collapse;
     border: 1px solid black;
     margin-bottom: -50px;
     margin-top: 50px;
     width: 260px;
-}
-#line1{border-collapse: collapse;
-    border: 1px solid black;
-    margin-bottom: -50px;
-    margin-top: 50px;
-    width: 260px;
-    font-weight: 500px;
 }
 #Suivez{margin-top: 100px;
     font-weight:inherit;
@@ -66,4 +52,67 @@ footer{;
 }
 img{width: 50px;
     height: 50px;
+}
+.icone{
+    height: 3% ;
+    width: 3%;
+}
+.deroul div{ display:none; }
+.deroul:hover div{ display:block }
+
+.trait{
+    border-collapse: collapse;
+    border-left: 4px solid #E71D73;
+    padding-left: 50px;
+    margin: auto;
+    border-right: 1px dashed dimgrey;
+    padding-right: 20px;
+}
+#oblic{
+    max-width:  100%;
+    font-weight: 600;
+    color: dimgrey;
+    overflow-x: hidden;
+    padding-top: 10px;
+}
+#Contact{text-align: right;
+    margin-top: -120px;
+    font-family: Helvetica;
+    margin-right: 225px;
+}
+#a{text-align: right;
+    font-family: Helvetica;
+    margin-right: 36px;
+}
+#b{text-align: right;
+    font-family: Helvetica;
+    margin-right: 97px;
+}
+#c{text-align: right;
+    font-family: Helvetica;
+    margin-right: 165px;
+}
+#d{text-align: right;
+    font-family: Helvetica;
+    margin-right: 248px;
+}
+#Formation{margin-left: 100px;
+    margin-top: 75px;
+    text-decoration: none
+}
+#Internationnal{margin-left: 300px;
+    margin-top: -18px;
+    text-decoration: none
+}
+#Vie{margin-left:550px;
+    margin-top:-18px;
+    text-decoration: none
+}
+#Entreprise{margin-left: 750px;
+    margin-top: -18px;
+    text-decoration: none
+}
+#IUT{margin-left: 950px;
+    margin-top: -18px;
+    text-decoration: none
 }

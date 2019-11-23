@@ -1,75 +1,36 @@
-body{
-    background-color: ghostwhite;
-    width: 860px;
-    height: 1024px;
-    margin: 225px;
+#slideshow .slider{
+    width: 1200px;
+    overflow: hidden;
 }
 
-h1, h2{
-    text-align: center;
-    color: #E71D73;
-    font-size: 50px;
-    font-weight: normal;
-    font-family: "Tw center bold";
+#slideshow .slides{
+    width: calc(1200px * 2);
+    animation: glisse 15s infinite;
 }
 
-#slideshow {
-	position: relative;
-	width: 860px;
-	height: 1024px;
-	padding: 15px;
-	margin: 0 auto 2em;
-	border: 1px solid #ddd;
-	background: #FFF;
-	/* CSS3 effects */
-	background: linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
-	border-radius: 2px 2px 2px 2px;
-	box-shadow: 0 0 3px rgba(0,0,0, 0.2);
-}
- 
-#slideshow:before,
-#slideshow:after {
-	position: absolute;
-	bottom:16px;
-	z-index: -10;
-	width: 50%;
-	height: 20px;
-	content: " ";
-	background: rgba(0,0,0,0.1);
-	border-radius: 50%;
-	box-shadow: 0 0 3px rgba(0,0,0, 0.4), 0 20px 10px rgba(0,0,0, 0.7);
-}
-#slideshow:before {
-	left:0;
-	transform: rotate(-4deg);
-}
-#slideshow:after {
-	right:0;
-	transform: rotate(4deg);
+#slideshow .slide{
+    float: left;
 }
 
-#slideshow .container {
-	position:relative;
-	width: 860px;
-	height: 1024px;
-	overflow: hidden;
+@keyframes glisse {
+    0% {
+        transform: translateX(0);
+    }
+    10% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-1200px);
+    }
+    60% {
+        transform: translateX(-1200px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
 }
 
-#slideshow .container:after {
-	position:absolute;
-	bottom: 0; left:0;
-	content: " ";
-	width: 100%;
-	height: 1px;
-	background: #999;
-}
 
-#slideshow .slider {
-	position: absolute;
-	left:0; top:0;
-	width: 400%;
-	height: 310px;
-}
 #slideshow figure {
 	position:relative;
 	display:inline-block;
@@ -91,24 +52,15 @@ h1, h2{
 	margin:0;
 	border-top: 1px solid rgb(225,225,225);
 	text-align:center;
+    color: #E71D73;
 	letter-spacing: 0.05em;
 	word-spacing: 0.05em;
 	font-family: Georgia, Times, serif;
 	background: #fff;
 	background: rgba(255,255,255,0.7);
-	color: #555;
 	text-shadow: -1px -1px 0 rgba(255,255,255,0.3);
 }
 
-@keyframes slider {
-	0%, 20%, 100%	{ left: 0 }
-	25%, 45%		{ left: -100% }
-	50%, 70%		{ left: -200% }
-	75%, 95%		{ left: -300% }
-}
-#slideshow .slider{
-    animation: slider 30s infinite;
-}
 
 #timeline {
 	position: absolute;
@@ -116,13 +68,13 @@ h1, h2{
 	bottom: 15px;
 	left: 15px;
 	height: 1px;
-	background: rgb(214,98,13);
-	background: rgba(214,98,13,.8);
+	background: #E71D73;
 	width: 0;
-	animation: timeliner 30s infinite;
+	animation: timeliner 15s infinite;
 }
 
+
 @keyframes timeliner {
-	0%, 25%, 50%, 75%, 100%	{ width: 0;		}
-	20%, 45%, 70%, 90%		{ width: 640px;	}
+	0%, 10%, 50%, 60%, 100%	{ width: 0;		}
+	20%, 45%, 70%, 90%		{ width: 1200px;	}
 }

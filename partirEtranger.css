@@ -1,15 +1,14 @@
 body{
     background-color: ghostwhite;
-        padding-left: 10%;
-        padding-right: 10%;
-        background-color: #fefefe;
+    width: 860;
+    height: 1024;
+    margin: 225px;
 }
 
 .fond {
     width: 90%;
     height: 90%;
     border: solid 5px #E71D73;
-    
     background-color: #fefefe;
 }
 
@@ -18,7 +17,7 @@ h2,h4,h6,h7,h8,h9{
     color: #E71D73;
     font-size: 30px;
     font-weight: normal;
-    font-family: "Tw center bold";
+/*    font-family: "Tw center bold"; - compatible exclusivement sous mac */
 }
 
 h1{
@@ -26,26 +25,20 @@ h1{
     color: #E71D73;
     font-size: 50px;
     font-weight: normal;
-    font-family: "Tw center bold";
+/*    font-family: "Tw center bold"; - compatible exclusivement sous mac */
 }
 
 h3, h5{
     color: #E71D73;
-    font-size: 20px;
-    font-family: "Tw center bold";
+/*    font-family: "Tw center bold"; - compatible exclusivement sous mac */
 }
 
 a:link, a:active, a:any-link{
     color: #E71D73;
 }
 
-body {
-    width: 860;
-    height: 1024;
-    margin: 225px;
-}
 a, p, li{
-    font-family: "helvetica neue thin";
+    font-family: helvetica, arial, sans-serif;
 }
 footer{;
 }
@@ -75,3 +68,19 @@ img{width: 50px;
 }
 .deroul div{ display:none; }
 .deroul:hover div{ display:block }
+
+.trait{
+    border-collapse: collapse;
+    border-left: 4px solid #E71D73;
+    padding-left: 50px;
+    margin: auto;
+    border-right: 1px dashed dimgrey;
+    padding-right: 20px;
+}
+#oblic{
+    max-width:  100%;
+    font-weight: 600;
+    color: dimgrey;
+    overflow-x: hidden;
+    padding-top: 10px;
+}

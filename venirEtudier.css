@@ -26,7 +26,7 @@ a:link, a:active, a:any-link{
 }
 
 a, p, li{
-    font-family: "helvetica neue thin";
+/*    font-family: "Tw center bold"; - compatible exclusivement sous mac */
 }
 
 .trait{

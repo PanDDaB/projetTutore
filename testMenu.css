@@ -1,33 +1,53 @@
-#grosTitre, #grosTitre ul{ /* centrer le menu*/
-padding:0;
-margin:0;
-list-style:none;
-text-align:center;
-}
-#grosTitre li{ /* espace entre les gros titre et forme*/
-display:inline-block;
-position:relative;
-border-radius:8px 8px 0 0;
-border: solid 2px;
-margin-left: 5%;
-margin-right: 5%;
-padding: 1%;
-}
-#grosTitre ul li{
-display: inherit;
-border-radius:0;
-}
-#grosTitre ul li:hover{
-border-radius:0;
-}
-#grosTitre ul li:last-child{
-border-radius:0 0 8px 8px;
+
+
+li
+{ /* on enlève les déco des listes*/
+  list-style-type: none;
+  position: relative;
+  display: inline-block; /* Mettre en ligne les titres*/
 }
 
-#grosTitre ul{ /*Texte déroulant*/
-position:absolute;
-z-index: 1000;
-max-height:0;
+#titre
+{
+  color: inherit;
+}
+
+#titre li
+{
+  margin-left: 10%;
+  padding: 10px;
+  margin-bottom: 5px;
+
+    /* Pour la couleur et la forme du menu
+  border: 5px ridge rgba(170, 50, 220);
+  background-color: rgba(170, 50, 220, 0.6);
+  border-radius: 8px 8px 8px 8px;*/
+}
+
+#titre li:hover
+{
+ /*problème: ne prend pas le caouleur jusqu'en haut*/
+border: solid 2px; /* contour des éléments menu*/
+border-radius: 8px 8px 8px 8px;
+  background-color: rgba(170, 50, 220, 0.6);
+}
+
+.formation
+{
+/*background-color: rgba(0, 170, 154);*/
+}
+
+#gros /*changer les couleurs pour chaque titres; forme des titres*/
+{
+  background-color: rgba(170, 50, 220, 0.6);
+padding: 10px;
+border: solid 1px;
+border-radius: 8px 8px 8px 8px;
+}
+
+
+#titre ul{
+max-height: 0;
 left: 0;
 right: 0;
 overflow:hidden;
@@ -36,29 +56,30 @@ overflow:hidden;
 transition: .8s all .3s;
 }
 
-
-#grosTitre li:hover ul{
+#titre li:hover ul{
 max-height:15em;
 }
-#menu-demo2 li:first-child li{
-background:#2A2333;
-}
 
-/* les a href */
-#grosTitre a{
+
+
+
+
+
+ #titre a{
 text-decoration:none;
-display:block;
-padding:8px 32px;
-color:#fff;
 font-family:arial;
+color: inherit;
 }
-#grosTitre ul a{
+ #titre ul a{
 padding:8px 0;
 }
-#grosTitre li:hover li a{
+
+/*#titre li:hover li a{
 color:#fff;
 text-transform:inherit;
-}
-#grosTitre li:hover a, #grosTitre li li:hover a{
+} */
+
+
+#titre li:hover a, #titre li li:hover a{
 color:#000;
 }

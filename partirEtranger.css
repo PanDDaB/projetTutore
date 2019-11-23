@@ -96,23 +96,48 @@ img{width: 50px;
     font-family: Helvetica;
     margin-right: 248px;
 }
-#Formation{margin-left: 100px;
+#Formation{margin-left: 30px;
     margin-top: 75px;
-    text-decoration: none
 }
-#Internationnal{margin-left: 300px;
-    margin-top: -18px;
-    text-decoration: none
+#cadre{width: 110px;
+    height: 90%;
+    border: solid 3px #048b9a;
+    background-color: #fefefe;
 }
-#Vie{margin-left:550px;
-    margin-top:-18px;
-    text-decoration: none
+#Internationnal{margin-left: 280px;
+    margin-top: -165px;
 }
-#Entreprise{margin-left: 750px;
-    margin-top: -18px;
-    text-decoration: none
+#cadre1{width: 140px;
+    height: 90%;
+    border: solid 3px #E71D73;
+    background-color: #fefefe;
 }
-#IUT{margin-left: 950px;
-    margin-top: -18px;
-    text-decoration: none
+#vie{margin-left:510px;
+    margin-top:-60px;
+
+}
+#cadre2{width: 90px;
+    height: 90%;
+    border: solid 3px #FF8C00;
+    background-color: #fefefe;
+}
+#Entreprise{margin-left: 780px;
+    margin-top: -165px;
+}
+#cadre3{width: 105px;
+    height: 90%;
+    border: solid 3px #7D3C98;
+    background-color: #fefefe;
+}
+#IUT{margin-left: 1000px;
+    margin-top: -95px;
+}
+#cadre4{width: 30px;
+    height: 90%;
+    border: solid 3px #0f056b ;
+    background-color: #fefefe;
+}
+#Souligne a{text-decoration: none;
+    color: rgb(156, 156, 156);
+    font-size: 13px;
 }

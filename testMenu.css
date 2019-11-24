@@ -29,17 +29,26 @@ li
  /*problème: ne prend pas le caouleur jusqu'en haut*/
 border: solid 2px; /* contour des éléments menu*/
 border-radius: 8px 8px 8px 8px;
-  background-color: rgba(170, 50, 220, 0.6);
+
+
 }
 
 .formation
 {
-/*background-color: rgba(0, 170, 154);*/
+  background-color: rgba(0, 170, 154);
 }
+
+.contenuForm, .formation /*Trouver le bon terme pour viser que les premiers li*/
+{
+background-color: rgba(0, 170, 154);
+}
+
+/*background-color: rgba(0, 170, 154);*/
+
 
 #gros /*changer les couleurs pour chaque titres; forme des titres*/
 {
-  background-color: rgba(170, 50, 220, 0.6);
+
 padding: 10px;
 border: solid 1px;
 border-radius: 8px 8px 8px 8px;

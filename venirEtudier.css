@@ -47,3 +47,43 @@ a, p, li{
 h5{
     line-height: 1px;
 }
+
+.menu ul {
+  width: 1000px;
+  margin: 30px auto;
+  text-align: center;
+  font-size: 35px; 
+}
+
+.menu ul li{
+  list-style:none;
+  display:inline-block;
+  padding:15px;
+}
+
+.menu a{
+  color: #E71D73;
+  text-decoration:none;
+  position:relative;
+  padding:6px 0;
+  transition: all 0.8s;
+} 
+
+.menu a:after{
+  content:'';
+  width:0%;
+  margin-left:50%;
+  height:2px;
+  bottom:0;
+  left:0;
+  border-radius: 40%;
+  transition:all 0.5s;
+  position:absolute;
+}
+
+.menu a:hover:after {
+  background-color: #E71D73;
+  width:60%;
+  margin-left:20%;
+  box-shadow: 0px 0px 10px #ef9a9a;
+}

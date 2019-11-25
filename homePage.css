@@ -20,11 +20,7 @@ img{
     left: 0;
     display: flex;
     max-height: 100%;
-    animation: slide 20s infinite ease-in-out forwards;
-}
-   
-#slides:hover {
-    animation-play-state: paused;
+    animation: slide 10s infinite ease-in-out forwards;
 }
 
 #slides figure {
@@ -128,7 +124,7 @@ input[type="radio"]:not(:nth-last-of-type(1)):checked ~ nav label#play {
 
 input[type="radio"]#play:checked ~ div#slides {
     animation-name: slide;
-    animation-duration: 10s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;

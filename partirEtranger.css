@@ -88,10 +88,6 @@ a, p, li{
     margin-top: 3%;
     width: 22%;
 }
-#Suivez{margin-top: 100px;
-    font-weight:inherit;
-    font-family: Helvetica;
-}
 img{width: 50px;
     height: 50px;
 }
@@ -119,7 +115,14 @@ img{width: 50px;
 }
 
 /* Bas de page */
-
+#back1{background-color: rgb(224, 107, 129);
+}
+#back2{background-color: pink;
+}
+#Rejoignez{margin-top: 5%;
+    margin-bottom: -6.5%;
+    font-family: ;
+}
 #Contact{text-align: right;
     margin-top: -8.5%;
     font-family: Helvetica;
@@ -143,48 +146,24 @@ img{width: 50px;
 }
 #Formation{margin-left: 2.8%;
     margin-top: 6.5%;
-}
-#cadre{width: 8%;
-    height: 90%;
-    border: solid 3px #048b9a;
-    background-color: #fefefe;
+    padding: 2.5%;
 }
 #Internationnal{margin-left: 23%;
-    margin-top: -13.5%;
-}
-#cadre1{width: 13%;
-    height: 90%;
-    border: solid 3px #E71D73;
-    background-color: #fefefe;
+    margin-top: -13.8%;
 }
 #vie{margin-left: 41%;
-    margin-top:-5%;
-
-}
-#cadre2{width: 10%;
-    height: 90%;
-    border: solid 3px #FF8C00;
-    background-color: #fefefe;
+    margin-top:-4.1%;
 }
 #Entreprise{margin-left: 63%;
-    margin-top: -14%;
-}
-#cadre3{width: 20%;
-    height: 90%;
-    border: solid 3px #7D3C98;
-    background-color: #fefefe;
+    margin-top: -11.4%;
 }
 #IUT{margin-left: 85%;
-    margin-top: -8%;
-}
-#cadre4{width: 14%;
-    height: 90%;
-    border: solid 3px #0f056b ;
-    background-color: #fefefe;
+    margin-top: -6.8%;
 }
 #Souligne a{text-decoration: none;
-    color: rgb(156, 156, 156);
-    font-size: 13px;
+    color: black;
+}
+#bot{margin-top: 10%;
 }
 #bot a{text-decoration: none;
     color: black;
@@ -203,4 +182,10 @@ img{width: 50px;
 #imguniv{width: 300%;
     height: 300%;
     margin-left: 85%;
+}
+.gras{font-weight: bolder;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.taille{font-size: 13px;
 }

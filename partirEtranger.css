@@ -124,20 +124,20 @@ text-transform:inherit;
 color:#000;
 }
 
-ul {
+#info ul {
   width: 100%;
   margin: 20px;
   text-align: center;
   font-size: 20px; 
 }
 
-ul li{
+#info ul li{
   list-style:none;
   display:inline-block;
   padding:15px;
 }
 
-a{
+#info a{
   color: #ffcdd2;
   text-decoration:none;
   position:relative;

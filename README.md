@@ -13,9 +13,9 @@ http://www.frogweb.fr/menu-deroulant-horizontal/
 
 nuancier:
 
-turquoise info - #05B8A4
-couleur supplémentaire - #004684
+turquoise INFO - #05B8A4
+couleur LISCENCE - #004684
 violet iut - #9C4B9D
-anis commerce - C4FF1C 
-orange gestion - #EA8C23
-magenta mmi - #E61471
+anis TC - C4FF1C 
+orange GEA - #EA8C23
+magenta MMI - #E61471

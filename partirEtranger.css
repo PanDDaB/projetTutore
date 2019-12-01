@@ -109,7 +109,7 @@ background: ghostwhite;
 /* les a href */
 #menu-demo2 a{
 text-decoration:none;
-display:block;
+display:inline;
 padding:8px 32px;
 color:#000;
 font-family:arial;
@@ -124,7 +124,7 @@ text-transform:inherit;
 #menu-demo2 li:hover a, #menu-demo2 li li:hover a{
 color:#000;
 }
-
+ 
 #menu-demo2, #info ul {
   width: 100%;
   margin: 20px;
@@ -201,31 +201,31 @@ color:#000;
   transition: all 0.8s;
 }
 
-#menu-demo2 .couleur1 a:hover:after {
+.couleur1 a:hover:after {
   background-color: #05B8A4;
   width:60%;
   margin-left:10%;
   box-shadow: 0px 0px 10px #05B8A4;
 }
-#menu-demo2 .couleur2 a:hover:after {
+.couleur2 a:hover:after {
   background-color: #E61471;
   width:60%;
   margin-left:10%;
   box-shadow: 0px 0px 10px #E61471;
 }
-#menu-demo2 .couleur3 a:hover:after {
+.couleur3 a:hover:after {
   background-color: #EA8C23;
   width:60%;
   margin-left:10%;
   box-shadow: 0px 0px 10px #EA8C23;
 }
-#menu-demo2 .couleur4 a:hover:after {
+.couleur4 a:hover:after {
   background-color: #C4FF1C ;
   width:60%;
   margin-left:10%;
   box-shadow: 0px 0px 10px #C4FF1C;
 }
-#menu-demo2 .couleur5 a:hover:after {
+.couleur5 a:hover:after {
   background-color: #9C4B9D;
   width:60%;
   margin-left:10%;
@@ -253,7 +253,7 @@ img{width: 50px;
     border-collapse: collapse;
     border-left: 4px solid #E71D73;
     padding-left: 50px;
-    margin: auto;
+    margin: 0%;
     border-right: 1px dashed dimgrey;
     padding-right: 20px;
 }

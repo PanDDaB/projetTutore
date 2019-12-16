@@ -7,9 +7,10 @@ body{
 
 .fond {
     width: 90%;
-    height: 90%;
+    height: auto;
     border: solid 5px #E71D73;
     background-color: #fefefe;
+    margin: 0 auto;
 }
 
 

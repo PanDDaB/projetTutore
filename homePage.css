@@ -56,7 +56,12 @@ header * {
     padding: 1em 0;
 }
 
-
+img {
+    float:left;
+    width:50%;";
+    float:right;
+    width:50%;;
+}
 
 
 

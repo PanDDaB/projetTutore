@@ -2,9 +2,19 @@ body{
     background-color: ghostwhite;
     width: 860;
     height: 1024;
-    margin: 225px;
+    /*margin: 225px;*/
 }
-
+div#container{
+  background-image: url(images/iut.jpg);
+  opacity: 0.75;
+  background-size:contain;
+  width:100%;
+  background-attachment: fixed;
+}
+div#content{
+  margin: 0 225px;
+  background-color:ghostwhite;
+}
 .fond {
     width: 90%;
     height: auto;
@@ -20,6 +30,7 @@ h2,h4,h6,h7,h8,h9{
     font-weight: normal;
 /*    font-family: "Tw center bold"; - compatible exclusivement sous mac */
 }
+
 
 h1{
     text-align: center;

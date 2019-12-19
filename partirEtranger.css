@@ -60,16 +60,20 @@ padding:0;
 margin:0;
 list-style:none;
 text-align:center;
+
 }
 #menu-demo2 li{
 display:inline-block;
 position:relative;
+
 }
 #menu-demo2 ul li{
 display:inherit;
+
 }
 #menu-demo2 ul li:last-child{
 border-radius:0 0 8px 8px;
+
 }
 #menu-demo2 ul{
 z-index: 1000;
@@ -88,35 +92,45 @@ max-height:15em;
 /* background des liens sous menus */
 #menu-demo2 li:first-child li{
 background:ghostwhite;
+
 }
 #menu-demo2 li:nth-child(2) li{
 background:ghostwhite;
+
 }
 #menu-demo2 li:nth-child(3) li{
 background:ghostwhite;
+
 }
 #menu-demo2 li:nth-child(4) li{
 background:ghostwhite;
+
 }
 #menu-demo2 li:last-child li{
 background:ghostwhite;
+
 }
 /* background des liens menus et sous menus au survol */
 #menu-demo2 li:first-child:hover, #menu-demo2 li:first-child li:hover{
 background:ghostwhite;
+
 }
 #menu-demo2 li:nth-child(2):hover, #menu-demo2 li:nth-child(2) li:hover{
 background:ghostwhite;
+
 }
 #menu-demo2 li:nth-child(3):hover, #menu-demo2 li:nth-child(3) li:hover{
 background:ghostwhite;
+
 }
 #menu-demo2 li:nth-child(4):hover, #menu-demo2 li:nth-child(3) li:hover{
 background:ghostwhite;
+
 }
 
 #menu-demo2 li:last-child:hover, #menu-demo2 li:last-child li:hover{
 background: ghostwhite;
+
 }
 /* les a href */
 #menu-demo2 a{
@@ -132,14 +146,16 @@ padding:8px 0;
 #menu-demo2 li:hover li a{
 color:#000;
 text-transform:inherit;
+
 }
 #menu-demo2 li:hover a, #menu-demo2 li li:hover a{
 color:#000;
+
 }
 
 #menu-demo2, #info ul {
   width: 100%;
-  margin: 20px;
+  margin:auto;
   text-align: center;
   font-size: 20px;
 }
@@ -148,6 +164,7 @@ color:#000;
   list-style:none;
   display:inline-block;
   padding:15px;
+
 }
 
 #menu-demo2, #info a{
@@ -177,9 +194,9 @@ color:#000;
   box-shadow: 0px 0px 10px #ef9a9a;
 }
 /* si moche enlever ce qui est en dessous, il s'agit du truc couleur du menu */
-#menu-demo2 .couleur1 a{
+#menu-demo2 .couleur1 a:hover{
   color: #05B8A4;
-  text-decoration:none;
+  text-decoration:underline;
   position:relative;
   padding:6px 0;
   transition: all 0.8s;
@@ -263,10 +280,10 @@ img{width: 50px;
 
 .trait{
     border-collapse: collapse;
-    border-left: 4px solid #E71D73;
+    border-left: .4em solid #E71D73;
     padding-left: 50px;
     margin: 0%;
-    border-right: 1px dashed dimgrey;
+    border-right: .1em dashed dimgrey;
     padding-right: 20px;
 }
 #oblic{
@@ -356,4 +373,14 @@ img{width: 50px;
     text-decoration: underline;
 }
 .taille{font-size: 13px;
+}
+li {min-width: 19%; font-size: 17px;}
+#container{
+    max-width: 80%;
+    margin:auto;
+}
+img.fond{
+    max-width: 80%;
+    margin:10%;
+    text-align: center;
 }

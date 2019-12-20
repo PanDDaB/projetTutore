@@ -22,5 +22,3 @@ magenta MMI - #E61471
 
 pour le responsive pour la map:
 utiliser Jquery (javascript) à voir 
-
-https://developer.mozilla.org/fr/docs/Web/CSS/grid-area

@@ -5,8 +5,8 @@ body{
     /*margin: 225px;*/
 }
 div#container{
-  background-image: url(images/iut.jpg);
-  opacity: 0.75;
+  background-image: url(images/fond.jpg);
+  opacity: 0.5;
   background-size:contain;
   width:100%;
   background-attachment: fixed;

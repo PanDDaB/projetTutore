@@ -69,15 +69,10 @@ text-align:center;
 #menu-demo2 li{
 display:inline-flex;
 position:relative;
-<<<<<<< HEAD
 flex-direction: column;
 align-items: stretch;
 align-content: space-between;
 flex-wrap: wrap;
-    
-=======
-
->>>>>>> f51914cb07f48fbf9c51a3f8f19ff3e2c9a14048
 }
 #menu-demo2 ul li{
 display:inherit;
@@ -111,94 +106,49 @@ a:hover:after {
 
 /* background des liens sous menus */
 #menu-demo2 li:first-child li{
-<<<<<<< HEAD
 background:ghostwhite;   
-=======
-background:ghostwhite;
-
->>>>>>> f51914cb07f48fbf9c51a3f8f19ff3e2c9a14048
 }
 
 #menu-demo2 li:nth-child(2) li{
-<<<<<<< HEAD
 background:ghostwhite;   
-=======
-background:ghostwhite;
-
->>>>>>> f51914cb07f48fbf9c51a3f8f19ff3e2c9a14048
 }
 
 #menu-demo2 li:nth-child(3) li{
-<<<<<<< HEAD
 background:ghostwhite;   
-=======
-background:ghostwhite;
-
->>>>>>> f51914cb07f48fbf9c51a3f8f19ff3e2c9a14048
 }
 
 #menu-demo2 li:nth-child(4) li{
-<<<<<<< HEAD
 background:ghostwhite;   
-=======
-background:ghostwhite;
-
->>>>>>> f51914cb07f48fbf9c51a3f8f19ff3e2c9a14048
 }
 
 #menu-demo2 li:last-child li{
-<<<<<<< HEAD
-background:ghostwhite;   
-=======
 background:ghostwhite;
-
->>>>>>> f51914cb07f48fbf9c51a3f8f19ff3e2c9a14048
 }
 
 /* background des liens menus et sous menus au survol */
 #menu-demo2 li:first-child:hover, #menu-demo2 li:first-child li:hover{
-<<<<<<< HEAD
-background:ghostwhite;   
-=======
 background:ghostwhite;
-
->>>>>>> f51914cb07f48fbf9c51a3f8f19ff3e2c9a14048
 }
 
 #menu-demo2 li:nth-child(2):hover, #menu-demo2 li:nth-child(2) li:hover{
-<<<<<<< HEAD
 background:ghostwhite;  
-=======
-background:ghostwhite;
-
->>>>>>> f51914cb07f48fbf9c51a3f8f19ff3e2c9a14048
 }
 
 #menu-demo2 li:nth-child(3):hover, #menu-demo2 li:nth-child(3) li:hover{
-<<<<<<< HEAD
 background:ghostwhite;   
-=======
-background:ghostwhite;
-
->>>>>>> f51914cb07f48fbf9c51a3f8f19ff3e2c9a14048
 }
 
 #menu-demo2 li:nth-child(4):hover, #menu-demo2 li:nth-child(3) li:hover{
-<<<<<<< HEAD
 background:ghostwhite;   
 }
 
-#menu-demo2 li:last-child:hover, #menu-demo2 li:last-child li:hover{
-background: ghostwhite;   
-=======
+#menu-demo2 li:last-child:hover, #menu-demo2 li:last-child li:hover{  
 background:ghostwhite;
 
 }
 
 #menu-demo2 li:last-child:hover, #menu-demo2 li:last-child li:hover{
 background: ghostwhite;
-
->>>>>>> f51914cb07f48fbf9c51a3f8f19ff3e2c9a14048
 }
 
 /* les a href */
@@ -233,10 +183,6 @@ color:#000;
   list-style:none;
   display:inline-block;
   padding:15px;
-<<<<<<< HEAD
-=======
-
->>>>>>> f51914cb07f48fbf9c51a3f8f19ff3e2c9a14048
 }
 
 #menu-demo2, #info a{

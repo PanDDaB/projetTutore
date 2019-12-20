@@ -2,15 +2,25 @@ body{
     background-color: ghostwhite;
     width: 860;
     height: 1024;
-    margin: auto;
-    min-width:430px;
+    /*margin: 225px;*/
 }
-
+div#container{
+  background-image: url(images/iut.jpg);
+  opacity: 0.75;
+  background-size:contain;
+  width:100%;
+  background-attachment: fixed;
+}
+div#content{
+  margin: 0 225px;
+  background-color:ghostwhite;
+}
 .fond {
     width: 90%;
-    height: 90%;
-    border: solid 2px #E71D73;
+    height: auto;
+    border: solid 5px #E71D73;
     background-color: #fefefe;
+    margin: 0 auto;
 }
 
 
@@ -20,6 +30,7 @@ h2,h4,h6,h7,h8,h9{
     font-weight: normal;
 /*    font-family: "Tw center bold"; - compatible exclusivement sous mac */
 }
+
 
 h1{
     text-align: center;
@@ -49,7 +60,7 @@ padding:0;
 margin:0;
 list-style:none;
 text-align:center;
-    
+
 }
 #menu-demo2 ul{
     display: block;
@@ -58,19 +69,23 @@ text-align:center;
 #menu-demo2 li{
 display:inline-flex;
 position:relative;
+<<<<<<< HEAD
 flex-direction: column;
 align-items: stretch;
 align-content: space-between;
 flex-wrap: wrap;
     
+=======
+
+>>>>>>> f51914cb07f48fbf9c51a3f8f19ff3e2c9a14048
 }
 #menu-demo2 ul li{
 display:inherit;
-    
+
 }
 #menu-demo2 ul li:last-child{
 border-radius:0 0 8px 8px;
-    
+
 }
 #menu-demo2 ul{
 z-index: 1000;
@@ -96,44 +111,94 @@ a:hover:after {
 
 /* background des liens sous menus */
 #menu-demo2 li:first-child li{
+<<<<<<< HEAD
 background:ghostwhite;   
+=======
+background:ghostwhite;
+
+>>>>>>> f51914cb07f48fbf9c51a3f8f19ff3e2c9a14048
 }
 
 #menu-demo2 li:nth-child(2) li{
+<<<<<<< HEAD
 background:ghostwhite;   
+=======
+background:ghostwhite;
+
+>>>>>>> f51914cb07f48fbf9c51a3f8f19ff3e2c9a14048
 }
 
 #menu-demo2 li:nth-child(3) li{
+<<<<<<< HEAD
 background:ghostwhite;   
+=======
+background:ghostwhite;
+
+>>>>>>> f51914cb07f48fbf9c51a3f8f19ff3e2c9a14048
 }
 
 #menu-demo2 li:nth-child(4) li{
+<<<<<<< HEAD
 background:ghostwhite;   
+=======
+background:ghostwhite;
+
+>>>>>>> f51914cb07f48fbf9c51a3f8f19ff3e2c9a14048
 }
 
 #menu-demo2 li:last-child li{
+<<<<<<< HEAD
 background:ghostwhite;   
+=======
+background:ghostwhite;
+
+>>>>>>> f51914cb07f48fbf9c51a3f8f19ff3e2c9a14048
 }
 
 /* background des liens menus et sous menus au survol */
 #menu-demo2 li:first-child:hover, #menu-demo2 li:first-child li:hover{
+<<<<<<< HEAD
 background:ghostwhite;   
+=======
+background:ghostwhite;
+
+>>>>>>> f51914cb07f48fbf9c51a3f8f19ff3e2c9a14048
 }
 
 #menu-demo2 li:nth-child(2):hover, #menu-demo2 li:nth-child(2) li:hover{
+<<<<<<< HEAD
 background:ghostwhite;  
+=======
+background:ghostwhite;
+
+>>>>>>> f51914cb07f48fbf9c51a3f8f19ff3e2c9a14048
 }
 
 #menu-demo2 li:nth-child(3):hover, #menu-demo2 li:nth-child(3) li:hover{
+<<<<<<< HEAD
 background:ghostwhite;   
+=======
+background:ghostwhite;
+
+>>>>>>> f51914cb07f48fbf9c51a3f8f19ff3e2c9a14048
 }
 
 #menu-demo2 li:nth-child(4):hover, #menu-demo2 li:nth-child(3) li:hover{
+<<<<<<< HEAD
 background:ghostwhite;   
 }
 
 #menu-demo2 li:last-child:hover, #menu-demo2 li:last-child li:hover{
 background: ghostwhite;   
+=======
+background:ghostwhite;
+
+}
+
+#menu-demo2 li:last-child:hover, #menu-demo2 li:last-child li:hover{
+background: ghostwhite;
+
+>>>>>>> f51914cb07f48fbf9c51a3f8f19ff3e2c9a14048
 }
 
 /* les a href */
@@ -150,13 +215,13 @@ padding:8px 0;
 #menu-demo2 li:hover li a{
 color:#000;
 text-transform:inherit;
-    
+
 }
 #menu-demo2 li:hover a, #menu-demo2 li li:hover a{
 color:#000;
-    
+
 }
- 
+
 #menu-demo2, #info ul {
   width: 100%;
   margin:auto;
@@ -168,6 +233,10 @@ color:#000;
   list-style:none;
   display:inline-block;
   padding:15px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> f51914cb07f48fbf9c51a3f8f19ff3e2c9a14048
 }
 
 #menu-demo2, #info a{

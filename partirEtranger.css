@@ -293,9 +293,9 @@ img{width: 50px;
 }
 #back2{background-color: pink;
 }
-#Rejoignez{margin-top: 5%;
+#Rejoignez{margin-top: 13%;
     margin-bottom: -6.5%;
-    font-family: ;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #Contact{text-align: right;
     margin-top: -8.5%;
@@ -363,7 +363,10 @@ img{width: 50px;
 }
 .taille{font-size: 13px;
 }
-li {min-width: 19%; font-size: 17px;}
+li {min-width: 19%;
+    font-size: 17px;
+}
+
 #container{
     max-width: 80%;
     margin:auto;

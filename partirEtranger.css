@@ -5,7 +5,7 @@ body{
     /*margin: 225px;*/
 }
 div#container{
-  background-image: url(images/fond.jpg);
+  background-image: url(images/fondtest.png);
   opacity: 0.75;
   background-size:contain;
   width:100%;

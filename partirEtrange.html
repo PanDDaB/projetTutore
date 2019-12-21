@@ -6,6 +6,8 @@
   <link rel="stylesheet" href="partirEtranger.css">
 </head>
 <body>
+  <div id="container">
+    <div id="content">
 <div class="topbar">
 <a>Accès par profil</a>
 <a>ENT</a>
@@ -13,12 +15,12 @@
 </div>
 
 <!--Menu-->
-<div id="Haut_du_site"></div>
     <a><img src="images/iutLens.jpg" alt="lien vers page d'accueil"/><a/></a>
-<ul id="menu-demo2">
-        <span class=couleur1>
-    	<li><a href="#"> Formations </a>
-    		<ul>
+<div id="menu">
+    <ul>
+    	<li>
+            <a href="#"> Formations </a>
+    		<ul id="couleur1">
     			<li><a href="http://www.iut-lens.univ-artois.fr/formations/offre-de-formation/">Offre de formation</a></li>
                 <li><a href="http://www.iut-lens.univ-artois.fr/formations/formation-tout-au-long-de-la-vie/">Formation tout au long de la vie</a></li>
                 <li><a href="http://www.iut-lens.univ-artois.fr/formations/alternance/">L'alternance</a></li>
@@ -26,21 +28,23 @@
                 <li><a href="http://www.iut-lens.univ-artois.fr/formations/sinscrire/">S’inscrire à l’IUT de Lens</a></li>
                 <li><a href="http://www.iut-lens.univ-artois.fr/formations/certifications-clesc2iprojet-voltaire/">Certifications : CLES/C2i/projet Voltaire</a></li>
                 <li><a href="http://www.iut-lens.univ-artois.fr/formations/entrepreneuriat/">Entrepreneuriat</a></li>
-                <li><a href="http://www.iut-lens.univ-artois.fr/formations/accompagnement-des-etudiants/">Accompagnement des étudiants</a></li>
+                <li><a href="http://www.iut-lens.univ-artois.fr/formations/accompagnement-des-etudiants/">Accompagnement</a></li>
     		</ul>
-    	</li>
-    </span>
-        <span class=couleur2>
-    	<li><a href="#"> International </a>
-    		<ul>
+        </li>
+    </ul>
+    <ul>
+    	<li>
+            <a href="#"> International </a>
+    		<ul id="couleur2">
     			<li><a href="http://www.iut-lens.univ-artois.fr/international/venir-etudier-a-liut/">Venir étudier à l’IUT</a></li>
                 <li><a href="http://www.iut-lens.univ-artois.fr/international/partir-etudier-a-letranger/">Partir à l’étranger</a></li>
     		</ul>
     	</li>
-        </span>
-        <span class=couleur3>
-    	<li><a href="#">Vie à l'IUT </a>
-    		<ul>
+    </ul>
+    <ul>
+    	<li>
+            <a href="#">Vie à l'IUT </a>
+    		<ul id="couleur3">
     			<li><a href="http://www.iut-lens.univ-artois.fr/etudiants/documentation/">Bibliothèque</a></li>
                   <li><a href="http://www.iut-lens.univ-artois.fr/etudiants/santehandicapassistantes-sociales/">Santé/ Handicap/ Assistantes sociales</a></li>
                   <li><a href="http://www.iut-lens.univ-artois.fr/etudiants/services-et-outils-numeriques/">Services et outils numériques</a></li>
@@ -51,20 +55,21 @@
                   <li><a href="http://www.iut-lens.univ-artois.fr/etudiants/job-etudiant/">Job étudiant</a></li>
     		</ul>
     	</li>
-        </span>
-        <span class=couleur4>
-        <li><a href="#"> Entreprise </a>
-    		<ul>
+    </ul>
+    <ul>
+        <li>
+            <a href="#"> Entreprise </a>
+    		<ul id="couleur4">
     			  <li><a href="http://www.iut-lens.univ-artois.fr/entreprises/formation-pour-entreprises/">Des formations à votre service</a></li>
                   <li><a href="http://www.iut-lens.univ-artois.fr/entreprises/taxe-apprentissage/">Taxe d’apprentissage</a></li>
                   <li><a href="http://www.iut-lens.univ-artois.fr/entreprises/proposer-un-stage-un-emploi/">Proposer un stage / un emploi</a></li>
                   <li><a href="http://www.iut-lens.univ-artois.fr/entreprises/proposer-un-partenariat/">Proposer un partenariat</a></li>
     		</ul>
         </li>
-        </span>
-        <span class=couleur5>
+    </ul>
+    <ul>
             <li><a href="#"> IUT </a>
-            <ul>
+            <ul id="couleur5">
               <li><a href="http://www.iut-lens.univ-artois.fr/liut/mot-de-la-directrice/">Mot de la directrice</a></li>
               <li><a href="http://www.iut-lens.univ-artois.fr/liut/iut-de-lens-en-bref/">IUT de Lens en bref</a></li>
               <li><a href="http://www.iut-lens.univ-artois.fr/liut/organisation/">Organisation</a></li>
@@ -73,14 +78,24 @@
               <li><a href="http://www.iut-lens.univ-artois.fr/liut/medias/">Médias</a></li>
             </ul>
     	</li>
-        </span>
-</ul>
+    </ul>
+</div>
+        
 
 <!-- Début de la page -->
-<div id="container">
 <div class="trait">
 <h1> PARTIR À L’ÉTRANGER </h1>
-<img class="fond" src="images/carte.jpg"/>
+<img class="fond" src="images/carte.jpg" usemap="#carte"/>
+<map name="carte">
+<area shape="circle" coords="370,300,30" href="#Canada" alt="Canada">
+<area shape="circle" coords="555,270,30" href="#Irlande" alt="Irlande">
+<area shape="circle" coords="563,353,20" href="#Espagne" alt="Espagne">
+<area shape="circle" coords="642,275,20" href="#Pologne" alt="Pologne">
+<area shape="circle" coords="642,345,20" href="#Grece" alt="Grèce">
+<area shape="circle" coords="652,312,15" href="#Roumanie" alt="Roumanie">
+<area shape="circle" coords= "1020,330,20" href="#Japon" alt="Japon">
+</map>
+
 <h2>LES ÉTUDES À L’ÉTRANGER</h2>
 <p>
     Les étudiants qui le souhaitent ont la possibilité d’effectuer un semestre d’études au cours de leur deuxième année de DUT ou au cours de leur année de licence professionnelle.
@@ -94,7 +109,7 @@
 <div id="oblic">///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</div>
 <h3> Les établissements partenaires de l’IUT </h3>
 <p>
-    <b>
+    <b id = "Canada">
         UQAC = Université du Québec à Chicoutimi – convention bilatérale
     </b>
 </p>
@@ -136,7 +151,7 @@ Après accord de l’IUT, le dossier est transmis à l’Université destinatair
     </div>
     </div>
     <p>
-    <b>
+    <b id="Irlande">
         Institute of Technology Sligo (Irlande) – programme Erasmus+
     </b>
 </p>
@@ -178,7 +193,7 @@ L’institut technologique de Sligo se situe au nord-ouest de l’Irlande.
     </div>
 </div>
 <p>
-    <b>
+    <b id="Espagne">
         Université Pablo Olavide – Séville (Espagne) - programme Erasmus+
     </b>
 </p>
@@ -210,7 +225,7 @@ L’institut technologique de Sligo se situe au nord-ouest de l’Irlande.
 <div id="oblic">///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</div>
 <h5>Les établissements partenaires de l’IUT </h5>
 <p>
-    <b>
+    <b id="Grece">
         Institut technologique de Larissa (Grèce) – programme Erasmus+ projet de fin d’études
     </b>
 </p>
@@ -239,7 +254,7 @@ L’institut technologique de Sligo se situe au nord-ouest de l’Irlande.
     </div>
     </div>
 <p>
-    <b>
+    <b id="Pologne">
         Université technologique de Varsovie (Pologne) – programme Erasmus+ projet de fin d’études
     </b>
 </p>
@@ -268,7 +283,7 @@ L’institut technologique de Sligo se situe au nord-ouest de l’Irlande.
     </div>
 </div>
 <p>
-    <b>
+    <b id="Roumanie">
         Université de l’Ouest de Timisoara (Roumanie) – programme Erasmus+ projet de fin d’études
     </b>
 </p>
@@ -325,7 +340,7 @@ L’institut technologique de Sligo se situe au nord-ouest de l’Irlande.
     </div>
     </div>
 <p>
-    <b>
+    <b id="Japon">
         Fédération des Kosen du Tohoku (Japon) – convention de stage
     </b>
 </p>
@@ -464,7 +479,8 @@ L’institut technologique de Sligo se situe au nord-ouest de l’Irlande.
         </div>
         <div id="imguniv"><img src="images/univ.jpg"/></div>
     </div>
-    
 </footer>
+</div>
+</div> <!-- div container -->
 </body>
 </html>

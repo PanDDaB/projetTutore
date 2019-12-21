@@ -19,3 +19,6 @@ violet iut - #9C4B9D
 anis TC - C4FF1C 
 orange GEA - #EA8C23
 magenta MMI - #E61471
+
+pour le responsive pour la map:
+utiliser Jquery (javascript) à voir 

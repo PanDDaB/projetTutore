@@ -31,11 +31,83 @@ h1 {
   width: 100%;
 }
 
+/* menu début */
+#menu ul{
+    margin:0;
+    padding:0;
+    line-height: 50px;
+}
+
+#menu li{
+    list-style: none;
+    float: left;
+    position: relative;
+}
+
+#menu ul li a{
+    color: #000;
+    text-decoration: none;
+    width: 280px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+
+#menu ul ul{
+    position: absolute;
+    top: 50px;
+    visibility: hidden;
+}
+
+#menu ul li:hover ul {
+    visibility: visible
+}
+#menu ul li ul li a{
+    font-size: 13px;
+}
+#couleur1 li:hover{
+    box-shadow: 0px 0px 10px #05B8A4;
+}
+#couleur2 li:hover{
+    box-shadow: 0px 0px 10px #E61471;
+}
+#couleur3 li:hover{
+    box-shadow: 0px 0px 10px #EA8C23;
+}
+#couleur4 li:hover{
+    box-shadow: 0px 0px 10px #008000;
+}
+#couleur5 li:hover{
+    box-shadow: 0px 0px 10px #9C4B9D;
+}
+#couleur1 a:hover{
+    color:#000;
+    font-size: 15px;
+}
+#couleur2 a:hover{
+    color:#000;
+    font-size: 15px;
+}
+#couleur3 a:hover{
+    color:#000;
+    font-size: 15px;
+}
+#couleur4 a:hover{
+    color:#000 ;
+    font-size: 15px;
+}
+#couleur5 a:hover{
+    color:#000;
+    font-size: 15px;
+}
+
+/* menu fin */
 
 /* Section */
 
 .img1 {
-  background: url('https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background: url('images/partir04.jpg');
   height: 108rem;
   background-size: cover;
   background-position: center;
@@ -65,11 +137,6 @@ h2 {
   line-height: 1.25rem;
 }
 
-.date {
-  font-size: 2rem;
-  opacity: 0.7;
-}
-
 .text {
   font-size: 1.8rem;
   letter-spacing: 0.15rem;
@@ -89,9 +156,12 @@ h2 {
   font-size: 1.8rem;
   letter-spacing: 0.1rem;
   font-weight: 600;
+  background: url(venirEtudier.html)
 }
 
-
+.learn a:link { 
+    text-decoration:none;
+}
 .learn:hover {
   background: rgba(255,255,255,0.9);
   color: black;
@@ -111,13 +181,32 @@ h2 {
 /* Troisieme section */
 
 .img3 {
-  background: url('https://images.pexels.com/photos/1183986/pexels-photo-1183986.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background: url('images/proposition00.jpg');
   height: 108rem;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
+/* Quatrième section */
+
+.img4 {
+  background: url('images/conseil00.jpg');
+  height: 108rem;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Cinquième section */
+
+.img5 {
+  background: url('images/cv01.jpg');
+  height: 108rem;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
 
 /* Animation */
 
@@ -136,4 +225,153 @@ h2 {
 
 .fade-in {
   opacity: 1;
+}
+
+/* Bas de page */
+ #back1{background-color:rgb(187, 166, 138);
+ }
+ #back2{background-color:rgb(236, 201, 155) ;
+ }
+ #Rejoignez{margin-top: 13%;
+     margin-bottom: -6.5%;
+     font-family: Arial, Helvetica, sans-serif;
+     margin-top: 3%;
+     padding: 1%;
+     margin-left: 2%;
+ }
+ #Rejoignez img {width: 2%;
+     height: 2%;
+ }
+ #Contact{text-align: right;
+     margin-top: -8.5%;
+     font-family: Helvetica;
+     margin-right: 18.25%;
+ }
+ #Formation{margin-left: 2.8%;
+     margin-top: 6.5%;
+     padding: 2.5%;
+ }
+ #Internationnal{margin-left: 23%;
+     margin-top: -11.3%;
+ }
+ #vie{margin-left: 41%;
+     margin-top:-3.1%;
+ }
+ #Entreprise{margin-left: 63%;
+     margin-top: -8.4%;
+ }
+ #IUT{margin-left: 85%;
+     margin-top: -4.8%;
+ }
+ #Souligne a{text-decoration: none;
+     color: black;
+ }
+ #bot{margin-top: 5%;
+ }
+ #bot a{text-decoration: none;
+     color: black;
+     font-size: 16px;
+ }
+ #Annuaire{margin-left: 4%;
+     margin-top: 2%;
+     margin-bottom: -4.5%;
+ }
+ #Mention{margin-left: 14%;
+     margin-top: 3.5%;
+     margin-bottom: -0.8%;
+ }
+ #Contacter{margin-left:28%;
+     margin-top: -1.2%;
+     padding-bottom: 2%;
+ }
+
+ #imguniv{margin-left: 90%;
+     margin-top: -4.2%;
+     width: 10%;
+     height: 10%;
+ }
+ .gras{font-weight: bolder;
+     font-size: 18px;
+     text-decoration: underline;
+ }
+ .taille{font-size: 13px;
+ }
+ footer {margin-top: 50%;
+ }
+
+/* Responsive Footer */
+
+/* Smartphones */
+@media(min-width: 0px) and (max-width: 425px)
+{
+#Rejoignez{display: inline;
+}
+#Formation{display: inline;
+}
+#Internationnal{display: inline;
+}
+#vie{display: inline;
+}
+#Entreprise{display: inline;
+}
+#IUT{display: inline;
+}
+#bot{display: inline;
+}
+#Annuaire{display: inline;
+}
+#Mention{display: inline;
+}
+#Contacter{display: inline;
+}
+}
+
+/* Tablettes */
+@media(min-width: 426px) and (max-width: 767px)
+{
+#Rejoignez{display: inline;
+}
+#Formation{display: inline;
+}
+#Internationnal{display: inline;
+}
+#vie{display: inline;
+}
+#Entreprise{display: inline;
+}
+#IUT{display: inline;
+}
+#bot{display: inline;
+}
+#Annuaire{display: inline;
+}
+#Mention{display: inline;
+}
+#Contacter{display: inline;
+}
+}
+
+/* Ordinateurs portables */ 
+@media(min-width: 768px) and (max-width: 1388px)
+{
+#Rejoignez{display: inline;
+}
+#Formation{display: inline;
+}
+#Internationnal{display: inline;
+}
+#vie{display: inline;
+}
+#Entreprise{display: inline;
+}
+#IUT{display: inline;
+}
+#bot{display: inline;
+}
+#Annuaire{display: inline;
+}
+#Mention{display: inline;
+}
+#Contacter{display: inline;
+}
 }

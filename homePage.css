@@ -3,7 +3,7 @@ html {
     overflow: hidden;
 }
 
-#parallaxe{
+body{
     color: ghostwhite;
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@ html {
     background-color: antiquewhite;
 }
 
-#parallaxe header{
+header{
     box-sizing: border-box;
     min-height: 100vh;
     padding: 30vw 0 5vw;
@@ -25,11 +25,11 @@ html {
     width: 100vw;
 }
 
-#parallaxe header h1{
+header h1{
     margin-top: -100px;
 }
 
-#parallaxe header p {
+header p {
 color: white;
 padding-left: ;
 }
@@ -51,11 +51,11 @@ p{
     margin-top: 700px;
     color: black;
 }
-#parallaxe header, header:before{
+header, header:before{
     background: 50% 50% / cover;
 }
 
-#parallaxe header::before {
+header::before {
     bottom: 0;
     content: "";
     left: 0;
@@ -71,7 +71,7 @@ p{
     min-height: 100vh;
 }
 
-#parallaxe header * {
+header * {
     font-weight: normal;
     letter-spacing: 0.2em;
     text-align: center;

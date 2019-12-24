@@ -1,0 +1,139 @@
+html {
+  font-size: 62.5%;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+header {
+  background: url('https://images.pexels.com/photos/221433/pexels-photo-221433.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  font-family: Lobster, sans-serif;
+  font-size: 13rem;
+  margin: 0;
+  position: relative;
+  top: 25rem;
+  letter-spacing: 5px;
+  width: 100%;
+}
+
+
+/* Section */
+
+.img1 {
+  background: url('https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  height: 108rem;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+.box {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 82rem;
+  height: 45rem;
+  text-align: center;
+  background: rgba(0,0,0,0.3);
+  color: white;
+  line-height: 1.5rem;
+  font-family: sans-serif;
+  font-weight: 100;
+  padding: 3.5rem;
+}
+
+h2 {
+  font-size: 4rem;
+  font-family: 'lato', sans-serif;
+  line-height: 1.25rem;
+}
+
+.date {
+  font-size: 2rem;
+  opacity: 0.7;
+}
+
+.text {
+  font-size: 1.8rem;
+  letter-spacing: 0.15rem;
+  margin: 0 3rem;
+  line-height: 2.5rem;
+}
+
+.learn {
+  background: transparent;
+  margin-top: 5rem;
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.3);
+  padding: 2.5rem;
+  font-weight: 500;
+  width: 25rem;
+  transition: all 0.4s ease-in;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+}
+
+
+.learn:hover {
+  background: rgba(255,255,255,0.9);
+  color: black;
+}
+
+/* Deuxieme section */
+
+.img2 {
+  background: url('https://images.pexels.com/photos/314703/pexels-photo-314703.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  height: 108rem;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+/* Troisieme section */
+
+.img3 {
+  background: url('https://images.pexels.com/photos/1183986/pexels-photo-1183986.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  height: 108rem;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+/* Animation */
+
+.box1 {
+  opacity: 0;
+  transition: all 0.4s linear;
+}
+.box2 {
+  opacity: 0;
+  transition: all 0.4s linear;
+}
+.box3 {
+  opacity: 0;
+  transition: all 0.4s linear;
+}
+
+.fade-in {
+  opacity: 1;
+}

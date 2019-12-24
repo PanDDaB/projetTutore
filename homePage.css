@@ -94,6 +94,83 @@ img{
     margin-right: 4%;
     border: solid 1px black;
 }
+/* menu début */
+#menu ul{
+    margin:0;
+    padding:0;
+    line-height: 50px;
+}
+
+#menu li{
+    list-style: none;
+    float: left;
+    position: relative;
+    opacity: 0.75;
+}
+
+#menu ul li a{
+    color: #000;
+    text-decoration: none;
+    width: 280px;
+    height: 31px;
+    display: block;
+    text-align: center;
+}
+
+#menu ul ul{
+    position: absolute;
+    top: 30px;
+    visibility: hidden;
+}
+
+#menu ul li:hover ul {
+    visibility: visible
+}
+
+#couleur1 li:hover{
+    opacity: 0.75;
+    box-shadow: 0px 0px 10px #05B8A4;
+}
+#couleur2 li:hover{
+    opacity: 0.75;
+    box-shadow: 0px 0px 10px #E61471;
+}
+#couleur3 li:hover{
+    opacity: 0.75;
+    box-shadow: 0px 0px 10px #EA8C23;
+}
+#couleur4 li:hover{
+    opacity: 0.75;
+    box-shadow: 0px 0px 10px #008000;
+}
+#couleur5 li:hover{
+    opacity: 0.75;
+    box-shadow: 0px 0px 10px #9C4B9D;
+}
+
+
+#couleur1 a:hover{
+    color:#05B8A4;
+    opacity: 0.75;
+}
+#couleur2 a:hover{
+    color:#E61471;
+    opacity: 0.75;
+}
+#couleur3 a:hover{
+    color:#EA8C23;
+    opacity: 0.75;
+}
+#couleur4 a:hover{
+    color:#008000 ;
+    opacity: 0.75;
+}
+#couleur5 a:hover{
+    color:#9C4B9D;
+    opacity: 0.75;
+}
+
+ /* menu fin */
 
 
 /* Bas de page */

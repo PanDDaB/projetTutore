@@ -1,7 +1,7 @@
 body{
     background-color: ghostwhite;
-    width: 860;
-    height: 1024;
+    width: 860px;
+    height: 1024px;
     /*margin: 225px;*/
 }
 div#container{
@@ -11,6 +11,7 @@ div#container{
   width:100%;
   background-attachment: fixed;
 }
+
 div#content{
   margin: 0 175px;
   background-color:ghostwhite;

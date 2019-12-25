@@ -31,20 +31,23 @@ h1 {
     top: 25rem;
     letter-spacing: 2px;
     width: 100%;
+    overflow: hidden;
+    z-index: 0;
 }
 
 /* menu début */
-
 #menu ul{
     margin:0;
     padding:0;
     line-height: 60px;
+    z-index:9999;
 }
 
 #menu li{
     list-style: none;
     float: left;
     position: relative;
+    z-index:9999;
 }
 
 #menu ul li a{

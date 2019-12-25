@@ -19,13 +19,12 @@ header {
     width: 100%;
     background-size: cover;
     background-position: center;
-
 }
 
 h1 {
     text-align: center;
     color: #fff;
-    font-family: Lobster, sans-serif;
+    font-family: Tw cent bold;
     font-size: 13rem;
     margin: 0;
     position: relative;
@@ -160,7 +159,6 @@ h2 {
     font-size: 1.8rem;
     letter-spacing: 0.1rem;
     font-weight: 600;
-    background: url(venirEtudier.html)
 }
 
 .learn a:link { 
@@ -223,6 +221,16 @@ h2 {
     transition: all 0.4s linear;
 }
 .box3 {
+    opacity: 0;
+    transition: all 0.4s linear;
+}
+
+.box4 {
+    opacity: 0;
+    transition: all 0.4s linear;
+}
+
+.box5 {
     opacity: 0;
     transition: all 0.4s linear;
 }

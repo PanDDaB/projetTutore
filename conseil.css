@@ -1,0 +1,183 @@
+body{
+    background-color: ghostwhite;
+    width: 860px;
+    height: 1024px;
+}
+
+
+
+/* menu début */
+#menu ul{
+    margin:0;
+    padding:0;
+    line-height: 30px;
+}
+
+#menu li{
+    list-style: none;
+    float: left;
+    position: relative;
+    background-color: ghostwhite;
+}
+
+#menu ul li a{
+    color: #000;
+    text-decoration: none;
+    width: 214px;
+    height: 31px;
+    display: block;
+    text-align: center;
+}
+
+#menu ul ul{
+    position: absolute;
+    top: 30px;
+    visibility: hidden;
+}
+
+#menu ul li:hover ul {
+    visibility: visible
+}
+
+#couleur1 li:hover{
+    background-color: ghostwhite;
+    box-shadow: 0px 0px 10px #05B8A4;
+}
+#couleur2 li:hover{
+    background-color: ghostwhite;
+    box-shadow: 0px 0px 10px #E61471;
+}
+#couleur3 li:hover{
+    background-color: ghostwhite;
+    box-shadow: 0px 0px 10px #EA8C23;
+}
+#couleur4 li:hover{
+    background-color: ghostwhite;
+    box-shadow: 0px 0px 10px #008000;
+}
+#couleur5 li:hover{
+    background-color: ghostwhite;
+    box-shadow: 0px 0px 10px #9C4B9D;
+}
+
+
+#couleur1 a:hover{
+    color:#05B8A4;
+    background-color: ghostwhite;
+}
+#couleur2 a:hover{
+    color:#E61471;
+    background-color: ghostwhite;
+}
+#couleur3 a:hover{
+    color:#EA8C23;
+    background-color: ghostwhite;
+}
+#couleur4 a:hover{
+    color:#008000 ;
+    background-color: ghostwhite;
+}
+#couleur5 a:hover{
+    color:#9C4B9D;
+    background-color: ghostwhite;
+}
+
+ /* menu fin */
+
+
+
+/* Bas de page */
+#back1{background-color: rgb(224, 107, 129);
+}
+#back2{background-color: pink;
+}
+#Rejoignez{margin-top: 13%;
+    margin-bottom: -6.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3%;
+    padding: 0.5%;
+    margin-left: 2%;
+}
+#Rejoignez img{width: 2%;
+    height: 2%;
+}
+#Contact{text-align: right;
+    margin-top: -8.5%;
+    font-family: Helvetica;
+    margin-right: 18.25%;
+}
+
+#Formation{margin-left: 2.8%;
+    margin-top: 6.5%;
+    padding: 2.5%;
+}
+#Internationnal{margin-left: 23%;
+    margin-top: -11.3%;
+}
+#vie{margin-left: 41%;
+    margin-top:-3.1%;
+}
+#Entreprise{margin-left: 63%;
+    margin-top: -8.4%;
+}
+#IUT{margin-left: 85%;
+    margin-top: -4.8%;
+}
+#Souligne a{text-decoration: none;
+    color: black;
+}
+#bot{margin-top: 5%;
+}
+#bot a{text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+#Annuaire{margin-top: 2%;
+    margin-left: 4%;
+}
+#Mention{margin-left: 14%;
+    margin-top: -1.2%;
+}
+#Contacter{margin-left:28%;
+    margin-top: -1.2%;
+}
+ 
+#imguniv{margin-left: 90%;
+    width: 10%;
+    height: 10%;
+}
+.gras{font-weight: bolder;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.taille{font-size: 13px;
+}
+
+html, body {
+	height: 100%;
+	margin: 0; padding: 0;
+}
+body {
+	display : table;
+	width: 100%;
+}
+footer {
+	display : table-row;
+	height: 100px;
+}
+  
+
+li {min-width: 19%;
+    font-size: 17px;
+}
+
+#container{
+    max-width: 80%;
+    margin:auto;
+}
+img.fond{
+    max-width: 80%;
+    margin:10%;
+    text-align: center;
+}
+

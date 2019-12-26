@@ -9,8 +9,18 @@ body {
 }
 
 .topbar{
-    font-size: 12px;
+    font-size: 16px;
     position: absolute;
+    right: 150px;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-left: 10px;
+
+}
+
+.topbar_image{
+  position: absolute;
+  right: 0;
 }
 
 header {
@@ -31,20 +41,38 @@ h1 {
     top: 25rem;
     letter-spacing: 2px;
     width: 100%;
+    overflow: hidden;
+    z-index: 0;
+}
+
+a {
+  text-decoration: none;
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: black;
 }
 
 /* menu début */
-
 #menu ul{
     margin:0;
     padding:0;
     line-height: 60px;
+    z-index:9999;
 }
 
 #menu li{
     list-style: none;
     float: left;
     position: relative;
+    z-index:9999;
+    font-weight: bold;
 }
 
 #menu ul li a{
@@ -150,24 +178,31 @@ h2 {
 .learn{
     background: transparent;
     margin-top: 5rem;
-    color: #fff;
     border: 1px solid rgba(255,255,255,0.3);
     padding: 2.5rem;
-    font-weight: 500;
     width: 25rem;
     transition: all 0.4s ease-in;
     font-size: 1.8rem;
     letter-spacing: 0.1rem;
     font-weight: 600;
+    display: inline-block;
 }
-
-.learn a:link { 
+.learn a:link {
     text-decoration:none;
 }
 
+.learn:hover a {
+  color: black;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+
+
 .learn:hover {
     background: rgba(255,255,255,0.9);
-    color: black;
 }
 
 /* Deuxieme section */

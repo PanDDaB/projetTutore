@@ -13,7 +13,7 @@ div#container{
 }
 
 div#content{
-  margin: 0 175px;
+  margin: 0 175px 0 175px;
   background-color:ghostwhite;
 }
 .fond {

@@ -20,16 +20,10 @@
               
        <p><label class="coordonnees" for="email"> Adresse e-mail : </label>
            <input type="email" name="email" id="email" /></p>
-     
-       <p><label class="coordonnees" for="requete"> Description du stage : </label>
-           <textarea name="requete" id="requete" rows="7" cols="30"></textarea></p>
-       <p><label class="qui" for="qui"> A qui s'adresse le stage ?</label>
-    <select name="qui" id="qui" >
-        <option value="MMI"> MMI</option>
-           <option value="INFO"> INFO</option></select>
-           <option value="TC"> TC</option>
-           <option value="GEA"> GEA</option>
-            </p>
+       
+       <p><label class="coordonnees" for="tel"> Numéro de téléphone : </label>
+           <input type="tel" name="tel" id="tel" /></p>
+       
    </fieldset>
 
     <fieldset>
@@ -37,15 +31,24 @@
         
         <form method="post" action="traitement.php">
             
-        <p><label for="date"> Durée: </label>
-           <select name="duree" id="duree">
-               <option value="rien"></option>
-               <option value="janvier-avril">Début janvier à fin avril</option>
-               <option value="avril-juin">Début avril à fin juin</option>
-               <option value="autre">AUTRE</option>
-           </select>
+        <p>
+            <label class="complementaire" for="qui"> A qui s'adresse le stage ?</label>
+                <select name="qui" id="qui" >
+                    <option value="MMI"> MMI</option>
+                    <option value="INFO"> INFO</option>
+                    <option value="TC"> TC</option>
+                    <option value="GEA"> GEA</option>
+                </select>
+        </p>
+
+
+        <p>
+            <label class="complementaire" for="requete"> Description du stage : </label>
+            <textarea name="requete" id="requete" rows="7" cols="30"></textarea></p>
+
+        
    
-        <p><label for="pays"> Pays proposé :</label><br />
+        <p><label class="complementaire" for="pays"> Pays proposé :</label>
             <select name="pays" id="pays">
                 <option value="rien"></option>
            <optgroup label="Europe">
@@ -258,8 +261,15 @@
            </optgroup>
        </select>
    </p>
-                        
-        <p><label for="fichier"> Joindre un document : </label>
+        <p><label class="complementaire" for="date"> Durée: </label>
+           <select name="duree" id="duree">
+               <option value="rien"></option>
+               <option value="janvier-avril">Début janvier à fin avril</option>
+               <option value="avril-juin">Début avril à fin juin</option>
+               <option value="autre">AUTRE</option>
+           </select>
+            
+        <p><label class="complementaire" for="fichier"> Joindre un document : </label>
        <input type="file" name="fichier" id="fichier"> </p>
             
             <p> <input type="checkbox" required>

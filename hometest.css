@@ -110,6 +110,7 @@ h1 {
 
 /* menu fin */
 
+
 /* Section */
 
 .img1 {
@@ -164,13 +165,17 @@ h2 {
     font-weight: 600;
 }
 
-.learn a:link { 
-    text-decoration:none;
+.learn :link{
+    text-decoration: none;
 }
 
 .learn:hover {
-    background: rgba(255,255,255,0.9);
+    background: rgba(255,255,255,0.6);
     color: black;
+}
+
+a{
+    color: white;
 }
 
 /* Deuxieme section */

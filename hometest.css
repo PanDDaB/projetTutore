@@ -11,16 +11,16 @@ body {
 .topbar{
     font-size: 16px;
     position: absolute;
-    right: 150px;
-    font-weight: bold;
+    right: 100px;
     text-decoration: underline;
     padding-left: 10px;
 
 }
 
 .topbar_image{
-  position: absolute;
-  right: 0;
+    position: absolute;
+    right: 15px;
+    top: 15px;
 }
 
 header {
@@ -71,7 +71,7 @@ a:hover {
     list-style: none;
     float: left;
     position: relative;
-    z-index:9999;
+    
 }
 
 #menu ul li a{
@@ -82,6 +82,7 @@ a:hover {
     display: block;
     text-align: center;
     font-size: 20px;
+    text-decoration: underline;
 }
 
 #menu ul ul{
@@ -91,10 +92,11 @@ a:hover {
 }
 
 #menu ul li:hover ul {
-    visibility: visible
+    visibility: visible;
 }
 #menu ul li ul li a{
     font-size: 13px;
+    text-decoration: none;
 }
 #couleur1 li:hover{
     box-shadow: 0px 0px 10px #05B8A4;

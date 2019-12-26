@@ -9,8 +9,18 @@ body {
 }
 
 .topbar{
-    font-size: 12px;
+    font-size: 16px;
     position: absolute;
+    right: 150px;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-left: 10px;
+
+}
+
+.topbar_image{
+  position: absolute;
+  right: 0;
 }
 
 header {
@@ -35,6 +45,20 @@ h1 {
     z-index: 0;
 }
 
+a {
+  text-decoration: none;
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: black;
+}
+
 /* menu début */
 #menu ul{
     margin:0;
@@ -48,6 +72,7 @@ h1 {
     float: left;
     position: relative;
     z-index:9999;
+    font-weight: bold;
 }
 
 #menu ul li a{
@@ -110,7 +135,6 @@ h1 {
 
 /* menu fin */
 
-
 /* Section */
 
 .img1 {
@@ -154,28 +178,31 @@ h2 {
 .learn{
     background: transparent;
     margin-top: 5rem;
-    color: #fff;
     border: 1px solid rgba(255,255,255,0.3);
     padding: 2.5rem;
-    font-weight: 500;
     width: 25rem;
     transition: all 0.4s ease-in;
     font-size: 1.8rem;
     letter-spacing: 0.1rem;
     font-weight: 600;
+    display: inline-block;
+}
+.learn a:link {
+    text-decoration:none;
 }
 
-.learn :link{
-    text-decoration: none;
+.learn:hover a {
+  color: black;
 }
+
+button:hover {
+  cursor: pointer;
+}
+
+
 
 .learn:hover {
-    background: rgba(255,255,255,0.6);
-    color: black;
-}
-
-a{
-    color: white;
+    background: rgba(255,255,255,0.9);
 }
 
 /* Deuxieme section */
@@ -249,82 +276,81 @@ a{
 }
 
 /* Bas de page */
- #back1{background-color:rgb(187, 166, 138);
- }
- #back2{background-color:rgb(236, 201, 155) ;
- }
- #Rejoignez{margin-top: 13%;
-     margin-bottom: -6.5%;
-     font-family: Arial, Helvetica, sans-serif;
-     padding: 1%;
-     margin-left: 2%;
-     font-size: 15px;
- }
- #Rejoignez img {width: 2%;
-     height: 2%;
- }
- #Contact{text-align: right;
-     margin-top: -8.5%;
-     font-family: Helvetica;
-     margin-right: 18.25%;
- }
- #Formation{margin-left: 2.8%;
-     margin-top: 6.5%;
-     padding: 2.5%;
- }
- #Internationnal{margin-left: 23%;
-     margin-top: -10.3%;
- }
- #vie{margin-left: 41%;
-     margin-top:-3.1%;
- }
- #Entreprise{margin-left: 63%;
-     margin-top: -7.8%;
- }
- #IUT{margin-left: 85%;
-     margin-top: -4.5%;
- }
- #Souligne a{text-decoration: none;
-     color: black;
- }
- #bot{margin-top: 10%;
- }
- #bot a{text-decoration: none;
-     color: black;
-     font-size: 16px;
- }
- #Annuaire{margin-left: 4%;
-     margin-top: 2%;
-     margin-bottom: -4.5%;
- }
- #Mention{margin-left: 14%;
-     margin-top: 3.5%;
-     margin-bottom: -0.8%;
- }
- #Contacter{margin-left:28%;
-     margin-top: -1.2%;
-     padding-bottom: 2%;
- }
-
- .gras{font-weight: bolder;
-     font-size: 18px;
-     text-decoration: underline;
- }
- .taille{font-size: 13px;
- }
- footer {margin-top: 15%;
-    width: 100%;
- }
-
-
 /* Responsive Footer */
+#back1{background-color:rgb(187, 166, 138);
+}
+#back2{background-color:rgb(236, 201, 155);
+}
+#Rejoignez{font-family: Arial, Helvetica, sans-serif;
+    padding: 1%;
+    font-size: 15px;
+    margin-top: -13%;
+}
+#Rejoignez img {max-width: 100%;
+    width: 2%;
+    height: 2%;
+}
+#Contacter{text-align: right;
+    margin-top: -8.5%;
+    margin-right: 18.25%;
+} 
+#Formation{margin-left: 2.8%;
+    margin-top: 6.5%;
+    padding: 2.5%;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+#Internationnal{margin-left: 23%;
+    margin-top: -10.3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#vie{margin-left: 41%;
+    margin-top:-3.1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Entreprise{margin-left: 63%;
+    margin-top: -7.8%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#IUT{margin-left: 85%;
+    margin-top: -4.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.taille{font-size: 13px;
+}
+.gras{font-weight: bolder;
+    font-size: 18px;
+    text-decoration: underline;
+}
+#Souligne a{text-decoration: none;
+    color: black;
+}
+#bot a{text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Annuaire{margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: -4.5%;
+}
+#Mention{margin-left: 14%;
+    margin-top: 3.5%;
+    margin-bottom: -0.8%;
+}
+ #Contacter{margin-left:28%;
+    margin-top: -1.2%;
+    padding-bottom: 2%;
+}
+footer{margin-top: 20%;
+}
+
 
 /* Smartphones */
 @media(min-width: 0px) and (max-width: 425px)
 {
 #Rejoignez{display: inline;
 }
-#Rejoignez img{max-width: 100%;
+#Rejoignez img{min-width: 5%;
 }
 #Formation{display: inline;
 }
@@ -344,10 +370,12 @@ a{
     margin-bottom: 5%;
     margin-top: 5%;
 }
+footer{margin-top: 15%;
+}
 }
 
 /* Tablettes */
-@media(min-width: 426px) and (max-width: 767px)
+@media(min-width: 426px) and (max-width: 1249px)
 {
 #Rejoignez{display: inline;
 }
@@ -374,34 +402,81 @@ a{
     margin-bottom: 5%;
     margin-top: 5%;
 }
+footer{margin-top: 15%;
+}
 }
 
 /* Ordinateurs portables */ 
-@media(min-width: 768px) and (max-width: 1388px)
+@media(min-width: 1250px) and (max-width: 1388px)
 {
-#Rejoignez{
+#Rejoignez{position: absolute;
+    background-color: rgb(187, 166, 138);
+    width: 100%;
 }
-#Formation{
+#Formation{position: absolute;
+    margin-top: -8%;
+    }
+#Internationnal{position: absolute;
+    margin-top: -5.6%;
 }
-#Internationnal{
+#vie{position: absolute;
+    margin-top: -5.6%;
 }
-#vie{
+#Entreprise{position: absolute;
+    margin-top: -5.6%;
 }
-#Entreprise{
+#IUT{position: absolute;
+    margin-top: -5.6%;
 }
-#IUT{
+#bot{margin-top: 10%;
+    margin-left: 4%;
 }
-#bot{
+#Annuaire{position: absolute;
+    margin-top: 8%;
+    margin-bottom: 5%;
 }
-#Annuaire{
+#Mention{position: absolute;
+    margin-top: 8%;
 }
-#Mention{
-}
-#Contacter{
+#Contacter{position: absolute;
+    margin-top: 8%;
 }
 }
 
 /* Ecran */
 
-@media(min-width: 1389px) and (max-width:
+@media(min-width: 1389px)
 {
+#Rejoignez{position: absolute;
+    background-color: rgb(187, 166, 138);
+    width: 100%;
+}
+#Formation{position: absolute;
+    margin-top: -8%;
+}
+#Internationnal{position: absolute;
+    margin-top: -5.6%;
+}
+#vie{position: absolute;
+    margin-top: -5.6%;
+}
+#Entreprise{position: absolute;
+    margin-top: -5.6%;
+}
+#IUT{position: absolute;
+    margin-top: -5.6%;
+}
+#bot{margin-top: 10%;
+    margin-left: 4%;
+}
+#Annuaire{position: absolute;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+#Mention{position: absolute;
+    margin-top: 8%;
+}
+#Contacter{position: absolute;
+    margin-top: 8%;
+}
+}

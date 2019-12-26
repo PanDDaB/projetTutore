@@ -287,8 +287,8 @@ button:hover {
     color: whitesmoke;
 }
 #Rejoignez img {max-width: 100%;
-    width: 2%;
-    height: 2%;
+    min-width: 2%;
+    max-width: 2%;
 }
 #Contacter{text-align: right;
     margin-top: -8.5%;
@@ -343,13 +343,13 @@ button:hover {
 }
 
 
-
 /* Smartphones */
 @media(min-width: 0px) and (max-width: 425px)
 {
 #Rejoignez{display: inline;
 }
-#Rejoignez img{min-width: 5%;
+#Rejoignez img{min-width: 4%;
+    max-width: 4%;
 }
 #Formation{display: inline;
 }
@@ -375,6 +375,9 @@ button:hover {
 @media(min-width: 426px) and (max-width: 1249px)
 {
 #Rejoignez{display: inline;
+}
+#Rejoignez img{min-width: 3%;
+    max-width: 3%;
 }
 #Formation{display: inline;
 }

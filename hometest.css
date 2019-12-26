@@ -48,7 +48,9 @@ h1 {
 a {
   text-decoration: none;
 }
-
+a:link {
+  color: white;
+}
 a:visited {
   color: white;
 }
@@ -176,7 +178,6 @@ h2 {
 .learn{
     background: transparent;
     margin-top: 5rem;
-    color: #fff;
     border: 1px solid rgba(255,255,255,0.3);
     padding: 2.5rem;
     width: 25rem;
@@ -184,8 +185,8 @@ h2 {
     font-size: 1.8rem;
     letter-spacing: 0.1rem;
     font-weight: 600;
+    display: inline-block;
 }
-
 .learn a:link {
     text-decoration:none;
 }

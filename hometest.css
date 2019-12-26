@@ -72,7 +72,6 @@ a:hover {
     float: left;
     position: relative;
     z-index:9999;
-    font-weight: bold;
 }
 
 #menu ul li a{

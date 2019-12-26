@@ -44,8 +44,9 @@ h1 {
     overflow: hidden;
     z-index: 0;
 }
+
 a {
-  text-decoration:none;
+  text-decoration: none;
 }
 
 a:visited {
@@ -185,11 +186,17 @@ h2 {
     font-weight: 600;
 }
 
+.learn a:link {
+    text-decoration:none;
+}
 
 .learn:hover a {
   color: black;
 }
 
+button:hover {
+  cursor: pointer;
+}
 
 
 

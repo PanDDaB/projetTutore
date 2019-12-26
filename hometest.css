@@ -9,6 +9,7 @@ body {
 }
 
 .topbar{
+    font-family: Helvetica Neue Thin;
     font-size: 16px;
     position: absolute;
     right: 100px;
@@ -83,7 +84,8 @@ a:hover {
     text-align: center;
     font-size: 20px;
     text-decoration: underline;
-    background: rgba(255,255,255,0.3)
+    background: rgba(255,255,255,0.3);
+    font-family: Helvetica Neue Thin;
 }
 
 #menu ul ul{
@@ -100,19 +102,19 @@ a:hover {
     text-decoration: none;
 }
 #couleur1 li:hover{
-    box-shadow: 0px 0px 10px #05B8A4;
+    box-shadow: 0px 0px 10px  #3DFF8A;
 }
 #couleur2 li:hover{
-    box-shadow: 0px 0px 10px #E61471;
+    box-shadow: 0px 0px 10px #FF0DCC;
 }
 #couleur3 li:hover{
-    box-shadow: 0px 0px 10px #EA8C23;
+    box-shadow: 0px 0px 10px  #F58F0A;
 }
 #couleur4 li:hover{
-    box-shadow: 0px 0px 10px #008000;
+    box-shadow: 0px 0px 10px #C4FF1C;
 }
 #couleur5 li:hover{
-    box-shadow: 0px 0px 10px #9C4B9D;
+    box-shadow: 0px 0px 10px #9129FF;
 }
 #couleur1 a:hover{
     color:#000;
@@ -164,13 +166,14 @@ a:hover {
     padding: 3.5rem;
 }
 
-h2 {
+h2, h3, h4, h5 {
     font-size: 4rem;
-    font-family: 'lato', sans-serif;
+    font-family: Tw cent bold;
     line-height: 1.25rem;
 }
 
 .text {
+    font-family: Helvetica Neue Thin;
     font-size: 1.8rem;
     letter-spacing: 0.15rem;
     margin: 0 3rem;
@@ -178,8 +181,9 @@ h2 {
 }
 
 .learn{
+    font-family: Helvetica Neue Thin;
     background: transparent;
-    margin-top: 5rem;
+    margin-top: 3rem;
     border: 1px solid rgba(255,255,255,0.3);
     padding: 2.5rem;
     width: 25rem;
@@ -283,7 +287,7 @@ button:hover {
 }
 #back2{background-color:white;
 }
-#Rejoignez{font-family: Arial, Helvetica, sans-serif;
+#Rejoignez{font-family: Helvetica Neue Thin;
     padding: 1%;
     font-size: 15px;
     margin-top: -13%;
@@ -300,23 +304,23 @@ button:hover {
 #Formation{margin-left: 2.8%;
     margin-top: 6.5%;
     padding: 2.5%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica Neue Thin;
 } 
 #Internationnal{margin-left: 23%;
     margin-top: -10.3%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica Neue Thin;
 }
 #vie{margin-left: 41%;
     margin-top:-3.1%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica Neue Thin;
 }
 #Entreprise{margin-left: 63%;
     margin-top: -7.8%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica Neue Thin;
 }
 #IUT{margin-left: 85%;
     margin-top: -4.5%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica Neue Thin;
 }
 .taille{font-size: 13px;
 }

@@ -277,14 +277,15 @@ button:hover {
 
 /* Bas de page */
 /* Responsive Footer */
-#back1{background-color:rgb(187, 166, 138);
+#back1{background-color:rgb(90, 90, 88);
 }
-#back2{background-color:rgb(236, 201, 155);
+#back2{background-color:white;
 }
 #Rejoignez{font-family: Arial, Helvetica, sans-serif;
     padding: 1%;
     font-size: 15px;
     margin-top: -13%;
+    color: whitesmoke;
 }
 #Rejoignez img {max-width: 100%;
     width: 2%;
@@ -341,8 +342,7 @@ button:hover {
     margin-top: -1.2%;
     padding-bottom: 2%;
 }
-footer{margin-top: 20%;
-}
+
 
 
 /* Smartphones */
@@ -365,12 +365,10 @@ footer{margin-top: 20%;
 #bot{display: inline;
 }
 .trait{border-collapse: collapse;
-    border: 1px solid whitesmoke;
+    border: 1px solid black;
     padding: auto;
     margin-bottom: 5%;
     margin-top: 5%;
-}
-footer{margin-top: 15%;
 }
 }
 
@@ -398,11 +396,9 @@ footer{margin-top: 15%;
 #Contacter{display: inline;
 }
 .trait{border-collapse: collapse;
-    border: 1px solid whitesmoke;
+    border: 1px solid black;
     margin-bottom: 5%;
     margin-top: 5%;
-}
-footer{margin-top: 15%;
 }
 }
 
@@ -410,8 +406,8 @@ footer{margin-top: 15%;
 @media(min-width: 1250px) and (max-width: 1388px)
 {
 #Rejoignez{position: absolute;
-    background-color: rgb(187, 166, 138);
-    width: 100%;
+    background-color:rgb(90, 90, 88);
+    width: 98%;
 }
 #Formation{position: absolute;
     margin-top: -8%;
@@ -448,8 +444,8 @@ footer{margin-top: 15%;
 @media(min-width: 1389px)
 {
 #Rejoignez{position: absolute;
-    background-color: rgb(187, 166, 138);
-    width: 100%;
+    background-color: rgb(90, 90, 88);
+    width: 98%;
 }
 #Formation{position: absolute;
     margin-top: -8%;
@@ -478,5 +474,7 @@ footer{margin-top: 15%;
 }
 #Contacter{position: absolute;
     margin-top: 8%;
+}
+footer{background-color: #008000;
 }
 }

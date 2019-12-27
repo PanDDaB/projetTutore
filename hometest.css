@@ -337,6 +337,11 @@ button:hover {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
+#bot img{width: 10%;
+    height: 10%;
+    margin-left: 90%;
+    margin-top: 5%;
+}
 #Annuaire{margin-left: 4%;
     margin-top: 2%;
     margin-bottom: -4.5%;
@@ -349,7 +354,6 @@ button:hover {
     margin-top: -1.2%;
     padding-bottom: 2%;
 }
-
 
 /* Smartphones */
 @media(min-width: 0px) and (max-width: 425px)

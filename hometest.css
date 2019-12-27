@@ -143,6 +143,41 @@ a:hover {
 
 /* menu fin */
 
+@media(min-width: 426px) and (max-width: 1000px)
+{
+#menu ul li a{
+    color: #fff
+}
+
+#menu ul ul{
+    position: absolute;
+    top: 50px;
+    visibility: hidden;
+    background: black;
+}
+#couleur1 a:hover{
+    color:#fff;
+    font-size: 15px;
+}
+#couleur2 a:hover{
+    color:#fff;
+    font-size: 15px;
+}
+#couleur3 a:hover{
+    color:#fff;
+    font-size: 15px;
+}
+#couleur4 a:hover{
+    color:#fff;
+    font-size: 15px;
+}
+#couleur5 a:hover{
+    color:#fff;
+    font-size: 15px;
+}
+
+}
+
 /* Section */
 
 .img1 {

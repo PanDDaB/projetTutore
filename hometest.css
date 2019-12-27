@@ -10,12 +10,12 @@ body {
 
 .topbar{
     font-family: Helvetica Neue Thin;
-    font-size: 10px;
+    font-size: 13px;
     position: absolute;
     right: 15px;
     text-decoration: underline;
     padding-left: 2px;
-    padding-top: 110px;
+    padding-top: 100px;
     text-align: center;
 }
 
@@ -47,6 +47,9 @@ h1 {
     z-index: 0;
 }
 
+#profil{
+    color: black;
+}
 a {
   text-decoration: none;
 }
@@ -83,7 +86,7 @@ a:hover {
     display: block;
     text-align: center;
     font-size: 20px;
-    text-decoration: underline;
+    text-decoration: none;
     background: rgba(255,255,255,0.3);
     font-family: Helvetica Neue Thin;
 }
@@ -335,7 +338,12 @@ button:hover {
 #bot a{text-decoration: none;
     color: black;
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica Neue Thin;
+}
+#bot img{width: 10%;
+    height: 10%;
+    margin-left: 90%;
+    margin-top: 5%;
 }
 #Annuaire{margin-left: 4%;
     margin-top: 2%;
@@ -349,7 +357,6 @@ button:hover {
     margin-top: -1.2%;
     padding-bottom: 2%;
 }
-
 
 /* Smartphones */
 @media(min-width: 0px) and (max-width: 425px)

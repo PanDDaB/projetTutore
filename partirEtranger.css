@@ -1,8 +1,6 @@
 body{
     background-color: ghostwhite;
-    width: 860px;
-    height: 1024px;
-    /*margin: 225px;*/
+    margin: 0;
 }
 div#container{
   background-image: url(images/fondtest.png);
@@ -10,6 +8,7 @@ div#container{
   background-size:contain;
   width:100%;
   background-attachment: fixed;
+  margin: 0 auto;
 }
 
 div#content{
@@ -189,12 +188,12 @@ img{width: 50px;
 #Contacter{text-align: right;
     margin-top: -8.5%;
     margin-right: 18.25%;
-} 
+}
 #Formation{margin-left: 2.8%;
     margin-top: 6.5%;
     padding: 2.5%;
     font-family: Arial, Helvetica, sans-serif;
-} 
+}
 #Internationnal{margin-left: 23%;
     margin-top: -10.3%;
     font-family: Arial, Helvetica, sans-serif;
@@ -300,7 +299,7 @@ img{width: 50px;
 }
 }
 
-/* Ordinateurs portables */ 
+/* Ordinateurs portables */
 @media(min-width: 1250px) and (max-width: 1388px)
 {
 #Rejoignez{position: absolute;
@@ -368,144 +367,3 @@ img{width: 50px;
     margin-top: 20%;
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

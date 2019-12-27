@@ -10,12 +10,12 @@ body {
 
 .topbar{
     font-family: Helvetica Neue Thin;
-    font-size: 10px;
+    font-size: 13px;
     position: absolute;
     right: 15px;
     text-decoration: underline;
     padding-left: 2px;
-    padding-top: 110px;
+    padding-top: 100px;
     text-align: center;
 }
 
@@ -47,6 +47,9 @@ h1 {
     z-index: 0;
 }
 
+#profil{
+    color: black;
+}
 a {
   text-decoration: none;
 }

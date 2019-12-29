@@ -187,276 +187,84 @@ h5{
     color: dimgrey;
     overflow-x: hidden;
     padding-top: 10px;
-<<<<<<< HEAD
 }
-=======
+
 }
 h5{
     line-height: 1px;
 }
 
-/* menu début */
-#menu-demo2, #menu-demo2 ul{
-padding:0;
-margin:0;
-list-style:none;
-text-align:center;
-}
-#menu-demo2 li{
-display:inline-block;
-position:relative;
-}
-#menu-demo2 ul li{
-display:inherit;
-}
-#menu-demo2 ul li:last-child{
-border-radius:0 0 8px 8px;
-}
-#menu-demo2 ul{
-z-index: 1000;
-max-height:0;
-left: 0;
-right: 0;
-overflow:hidden;
--moz-transition: .8s all .3s;
--webkit-transition: .8s all .3s;
-transition: .8s all .3s;
-}
-#menu-demo2 li:hover ul{
-max-height:15em;
-}
-
-/* background des liens sous menus */
-#menu-demo2 li:first-child li{
-background:ghostwhite;
-}
-#menu-demo2 li:nth-child(2) li{
-background:ghostwhite;
-}
-#menu-demo2 li:nth-child(3) li{
-background:ghostwhite;
-}
-#menu-demo2 li:nth-child(4) li{
-background:ghostwhite;
-}
-#menu-demo2 li:last-child li{
-background:ghostwhite;
-}
-/* background des liens menus et sous menus au survol */
-#menu-demo2 li:first-child:hover, #menu-demo2 li:first-child li:hover{
-background:ghostwhite;
-}
-#menu-demo2 li:nth-child(2):hover, #menu-demo2 li:nth-child(2) li:hover{
-background:ghostwhite;
-}
-#menu-demo2 li:nth-child(3):hover, #menu-demo2 li:nth-child(3) li:hover{
-background:ghostwhite;
-}
-#menu-demo2 li:nth-child(4):hover, #menu-demo2 li:nth-child(3) li:hover{
-background:ghostwhite;
-}
-
-#menu-demo2 li:last-child:hover, #menu-demo2 li:last-child li:hover{
-background: ghostwhite;
-}
-/* les a href */
-#menu-demo2 a{
-text-decoration:none;
-display:inline;
-padding:8px 32px;
-color:#000;
-font-family:arial;
-}
-#menu-demo2 ul a{
-padding:8px 0;
-}
-#menu-demo2 li:hover li a{
-color:#000;
-text-transform:inherit;
-}
-#menu-demo2 li:hover a, #menu-demo2 li li:hover a{
-color:#000;
-}
- 
-#menu-demo2, #info ul {
-  width: 100%;
-  margin: 20px;
-  text-align: center;
-  font-size: 20px; 
-}
-
-#menu-demo2, #info ul li{
-  list-style:none;
-  display:inline-block;
-  padding:15px;
-}
-
-#menu-demo2, #info a{
-  color: #ffcdd2;
-  text-decoration:none;
-  position:relative;
-  padding:6px 0;
-  transition: all 0.8s;
-} 
-
-#menu-demo2 a:after{
-  content:'';
-  width:0%;
-  margin-left:10%;
-  height:2px;
-  bottom:0;
-  left:0;
-  border-radius: 40%;
-  transition:all 0.5s;
-  position:static;
-}
-
-#menu-demo2 a:hover:after {
-  background-color: #ffcdd2;
-  width:60%;
-  margin-left:10%;
-  box-shadow: 0px 0px 10px #ef9a9a;
-}
-/* si moche enlever ce qui est en dessous, il s'agit du truc couleur du menu */
-#menu-demo2 .couleur1 a{
-  color: #05B8A4;
-  text-decoration:none;
-  position:relative;
-  padding:6px 0;
-  transition: all 0.8s;
-}
-#menu-demo2 .couleur2 a{
-  color: #E61471;
-  text-decoration:none;
-  position:relative;
-  padding:6px 0;
-  transition: all 0.8s;
-}
-#menu-demo2 .couleur3 a{
-  color: #EA8C23;
-  text-decoration:none;
-  position:relative;
-  padding:6px 0;
-  transition: all 0.8s;
-}
-#menu-demo2 .couleur4 a{
-  color: #C4FF1C;
-  text-decoration:none;
-  position:relative;
-  padding:6px 0;
-  transition: all 0.8s;
-}
-#menu-demo2 .couleur5 a{
-  color: #9C4B9D;
-  text-decoration:none;
-  position:relative;
-  padding:6px 0;
-  transition: all 0.8s;
-}
-
-.couleur1 a:hover:after {
-  background-color: #05B8A4;
-  width:60%;
-  margin-left:10%;
-  box-shadow: 0px 0px 10px #05B8A4;
-}
-.couleur2 a:hover:after {
-  background-color: #E61471;
-  width:60%;
-  margin-left:10%;
-  box-shadow: 0px 0px 10px #E61471;
-}
-.couleur3 a:hover:after {
-  background-color: #EA8C23;
-  width:60%;
-  margin-left:10%;
-  box-shadow: 0px 0px 10px #EA8C23;
-}
-.couleur4 a:hover:after {
-  background-color: #C4FF1C ;
-  width:60%;
-  margin-left:10%;
-  box-shadow: 0px 0px 10px #C4FF1C;
-}
-.couleur5 a:hover:after {
-  background-color: #9C4B9D;
-  width:60%;
-  margin-left:10%;
-  box-shadow: 0px 0px 10px #9C4B9D;
-}
- /* menu fin */
-
 
 /* Bas de page */
 /* Responsive Footer */
-footer{margin-top: 20%;
+footer{margin-top: 17%;
 }
 #back1{background-color:rgb(253, 156, 198);
 }
 #Rejoignez{font-family: Helvetica Neue Thin;
-  padding: 1%;
-  font-size: 15px;
-  margin-top: -13%;
+    padding: 1%;
+    font-size: 15px;
+    margin-top: -13%;
 }
 #Rejoignez img {max-width: 100%;
-  min-width: 2%;
-  max-width: 2%;
+    min-width: 2%;
+    max-width: 2%;
 }
 #Contacter{text-align: right;
-  margin-top: -8.5%;
-  margin-right: 18.25%;
+    margin-top: -8.5%;
+    margin-right: 18.25%;
 } 
 #Formation{margin-left: 2.8%;
-  margin-top: 6.5%;
-  padding: 2.5%;
-  font-family: Helvetica Neue Thin;
+    margin-top: 6.5%;
+    padding: 2.5%;
+    font-family: Helvetica Neue Thin;
 } 
 #Internationnal{margin-left: 23%;
-  margin-top: -10.3%;
-  font-family: Helvetica Neue Thin;
+    margin-top: -10.3%;
+    font-family: Helvetica Neue Thin;
 }
 #vie{margin-left: 41%;
-  margin-top:-3.1%;
-  font-family: Helvetica Neue Thin;
+    margin-top:-3.1%;
+    font-family: Helvetica Neue Thin;
 }
 #Entreprise{margin-left: 63%;
-  margin-top: -7.8%;
-  font-family: Helvetica Neue Thin;
+    margin-top: -7.8%;
+    font-family: Helvetica Neue Thin;
 }
 #IUT{margin-left: 85%;
-  margin-top: -4.5%;
-  font-family: Helvetica Neue Thin;
+    margin-top: -4.5%;
+    font-family: Helvetica Neue Thin;
 }
 .taille{font-size: 13px;
 }
 .gras{font-weight: bolder;
-  font-size: 18px;
-  text-decoration: underline;
+    font-size: 18px;
+    text-decoration: underline;
 }
 #Souligne a{text-decoration: none;
-  color: black;
+    color: black;
 }
 #bot a{text-decoration: none;
-  color: black;
-  font-size: 16px;
-  font-family: Helvetica Neue Thin;
+    color: black;
+    font-size: 16px;
+    font-family: Helvetica Neue Thin;
 }
 #bot img{width: 10%;
-  height: 10%;
-  margin-left: 90%;
-  margin-top: 5%;
+    height: 10%;
+    margin-left: 90%;
+    margin-top: 5%;
 }
 #Annuaire{margin-left: 4%;
-  margin-top: 2%;
-  margin-bottom: -4.5%;
+    margin-top: 2%;
+    margin-bottom: -4.5%;
 }
 #Mention{margin-left: 14%;
-  margin-top: 3.5%;
-  margin-bottom: -0.8%;
+    margin-top: 3.5%;
+    margin-bottom: -0.8%;
 }
  #Contacter{margin-left:28%;
-  margin-top: -1.2%;
-  padding-bottom: 2%;
+    margin-top: -1.2%;
+    padding-bottom: 2%;
 }
 
 /* Smartphones */
@@ -467,7 +275,7 @@ footer{margin-top: 20%;
 #Rejoignez{display: inline;
 }
 #Rejoignez img{min-width: 4%;
-  max-width: 4%;
+    max-width: 4%;
 }
 #Formation{display: inline;
 }
@@ -482,10 +290,10 @@ footer{margin-top: 20%;
 #bot{display: inline;
 }
 .trait{border-collapse: collapse;
-  border: 1px solid black;
-  padding: auto;
-  margin-bottom: 5%;
-  margin-top: 5%;
+    border: 1px solid black;
+    padding: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 }
 
@@ -497,7 +305,7 @@ footer{margin-top: 20%;
 #Rejoignez{display: inline;
 }
 #Rejoignez img{min-width: 3%;
-  max-width: 3%;
+    max-width: 3%;
 }
 #Formation{display: inline;
 }
@@ -518,9 +326,9 @@ footer{margin-top: 20%;
 #Contacter{display: inline;
 }
 .trait{border-collapse: collapse;
-  border: 1px solid black;
-  margin-bottom: 5%;
-  margin-top: 5%;
+    border: 1px solid black;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 }
 
@@ -528,36 +336,36 @@ footer{margin-top: 20%;
 @media(min-width: 1250px) and (max-width: 1388px)
 {
 #Rejoignez{position: absolute;
-  background-color:rgb(253, 156, 198);
-  width: 98%;
+    background-color:rgb(253, 156, 198);
+    width: 98%;
 }
 #Formation{position: absolute;
-  margin-top: -8%;
-}
+    margin-top: -8%;
+    }
 #Internationnal{position: absolute;
-  margin-top: -5.6%;
+    margin-top: -5.6%;
 }
 #vie{position: absolute;
-  margin-top: -5.6%;
+    margin-top: -5.6%;
 }
 #Entreprise{position: absolute;
-  margin-top: -5.6%;
+    margin-top: -5.6%;
 }
 #IUT{position: absolute;
-  margin-top: -5.6%;
+    margin-top: -5.6%;
 }
 #bot{margin-top: 10%;
-  margin-left: 4%;
+    margin-left: 4%;
 }
 #Annuaire{position: absolute;
-  margin-top: 8%;
-  margin-bottom: 5%;
+    margin-top: 8%;
+    margin-bottom: 5%;
 }
 #Mention{position: absolute;
-  margin-top: 8%;
+    margin-top: 8%;
 }
 #Contacter{position: absolute;
-  margin-top: 8%;
+    margin-top: 8%;
 }
 }
 
@@ -566,36 +374,36 @@ footer{margin-top: 20%;
 @media(min-width: 1389px)
 {
 #Rejoignez{position: absolute;
-  background-color: rgb(253, 156, 198);
-  width: 98%;
+    background-color:rgb(253, 156, 198);
+    width: 98%;
 }
 #Formation{position: absolute;
-  margin-top: -8%;
+    margin-top: -8%;
 }
 #Internationnal{position: absolute;
-  margin-top: -5.6%;
+    margin-top: -5.6%;
 }
 #vie{position: absolute;
-  margin-top: -5.6%;
+    margin-top: -5.6%;
 }
 #Entreprise{position: absolute;
-  margin-top: -5.6%;
+    margin-top: -5.6%;
 }
 #IUT{position: absolute;
-  margin-top: -5.6%;
+    margin-top: -5.6%;
 }
 #bot{margin-top: 10%;
-  margin-left: 4%;
+    margin-left: 4%;
 }
 #Annuaire{position: absolute;
-  margin-top: 8%;
-  margin-bottom: 5%;
+    margin-top: 8%;
+    margin-bottom: 5%;
 }
 #Mention{position: absolute;
-  margin-top: 8%;
+    margin-top: 8%;
 }
 #Contacter{position: absolute;
-  margin-top: 8%;
+    margin-top: 8%;
 }
 }
->>>>>>> 1aa85d117a3be40d1afa670ed7abdd726d37d816
+

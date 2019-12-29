@@ -1,9 +1,20 @@
 body{
     background-color: ghostwhite;
-    width: 860;
-    height: 1024;
-    margin: 225px;
-    font-family: helvetica, arial, sans-serif;
+    margin: 0;
+}
+
+div#container{
+  background-image: url(images/fondtest.png);
+  opacity: 0.95;
+  background-size:contain;
+  width:100%;
+  background-attachment: fixed;
+  margin: 0 auto;
+}
+
+div#content{
+  margin: 0 175px 0 175px;
+  background-color:ghostwhite;
 }
 
 h2,h3, h4,h5, h6{
@@ -29,11 +40,144 @@ a, p, li{
 /*    font-family: "Tw center bold"; - compatible exclusivement sous mac */
 }
 
+
+h5{
+    line-height: 1px;
+}
+.topbar{
+    font-family: Helvetica Neue Thin;
+    font-size: 15px;
+    position: absolute;
+    text-decoration: underline;
+    padding-right: 50px;
+    right: 0px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.topbar_image{
+    position: absolute;
+}
+
+/* menu début */
+#menu ul{
+    margin:0;
+    padding:0;
+    line-height: 60px;
+    z-index:9999;
+}
+
+#menu li{
+    list-style: none;
+    float: left;
+    position: relative;
+}
+
+#menu ul li a{
+    color: #000;
+    text-decoration: none;
+    width: 215px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    background: rgba(255,255,255,0.3);
+    font-family: Helvetica Neue Thin;
+}
+
+#menu ul ul{
+    position: absolute;
+    top: 50px;
+    visibility: hidden;
+}
+
+#menu ul li:hover ul {
+    visibility: visible;
+}
+#menu ul li ul li a{
+    font-size: 13px;
+    text-decoration: none;
+}
+
+#couleur1 li:hover{
+    box-shadow: 0px 0px 10px  #05B8A4;
+}
+#couleur2 li:hover{
+    box-shadow: 0px 0px 10px #E61471;
+}
+#couleur3 li:hover{
+    box-shadow: 0px 0px 10px  #EA8C23;
+}
+#couleur4 li:hover{
+    box-shadow: 0px 0px 10px #C4FF1C ;
+}
+#couleur5 li:hover{
+    box-shadow: 0px 0px 10px #9C4B9D;
+}
+#couleur1 a:hover{
+    color:#000;
+    font-size: 15px;
+}
+#couleur2 a:hover{
+    color:#000;
+    font-size: 15px;
+}
+#couleur3 a:hover{
+    color:#000;
+    font-size: 15px;
+}
+#couleur4 a:hover{
+    color:#000 ;
+    font-size: 15px;
+}
+#couleur5 a:hover{
+    color:#000;
+    font-size: 15px;
+}
+
+/* menu fin */
+
+@media(min-width: 426px) and (max-width: 1000px)
+{
+#menu ul li a{
+    color: #fff
+}
+
+#menu ul ul{
+    position: absolute;
+    top: 50px;
+    visibility: hidden;
+    background: black;
+}
+#couleur1 a:hover{
+    color:#fff;
+    font-size: 15px;
+}
+#couleur2 a:hover{
+    color:#fff;
+    font-size: 15px;
+}
+#couleur3 a:hover{
+    color:#fff;
+    font-size: 15px;
+}
+#couleur4 a:hover{
+    color:#fff;
+    font-size: 15px;
+}
+#couleur5 a:hover{
+    color:#fff;
+    font-size: 15px;
+}
+
+}
+
 .trait{
     border-collapse: collapse;
     border-left: 4px solid #E71D73;
     padding-left: 50px;
-    margin: auto;
+    margin: 0%;
     border-right: 1px dashed dimgrey;
     padding-right: 20px;
 }
@@ -44,197 +188,3 @@ a, p, li{
     overflow-x: hidden;
     padding-top: 10px;
 }
-h5{
-    line-height: 1px;
-}
-
-/* menu début */
-#menu-demo2, #menu-demo2 ul{
-padding:0;
-margin:0;
-list-style:none;
-text-align:center;
-}
-#menu-demo2 li{
-display:inline-block;
-position:relative;
-}
-#menu-demo2 ul li{
-display:inherit;
-}
-#menu-demo2 ul li:last-child{
-border-radius:0 0 8px 8px;
-}
-#menu-demo2 ul{
-z-index: 1000;
-max-height:0;
-left: 0;
-right: 0;
-overflow:hidden;
--moz-transition: .8s all .3s;
--webkit-transition: .8s all .3s;
-transition: .8s all .3s;
-}
-#menu-demo2 li:hover ul{
-max-height:15em;
-}
-
-/* background des liens sous menus */
-#menu-demo2 li:first-child li{
-background:ghostwhite;
-}
-#menu-demo2 li:nth-child(2) li{
-background:ghostwhite;
-}
-#menu-demo2 li:nth-child(3) li{
-background:ghostwhite;
-}
-#menu-demo2 li:nth-child(4) li{
-background:ghostwhite;
-}
-#menu-demo2 li:last-child li{
-background:ghostwhite;
-}
-/* background des liens menus et sous menus au survol */
-#menu-demo2 li:first-child:hover, #menu-demo2 li:first-child li:hover{
-background:ghostwhite;
-}
-#menu-demo2 li:nth-child(2):hover, #menu-demo2 li:nth-child(2) li:hover{
-background:ghostwhite;
-}
-#menu-demo2 li:nth-child(3):hover, #menu-demo2 li:nth-child(3) li:hover{
-background:ghostwhite;
-}
-#menu-demo2 li:nth-child(4):hover, #menu-demo2 li:nth-child(3) li:hover{
-background:ghostwhite;
-}
-
-#menu-demo2 li:last-child:hover, #menu-demo2 li:last-child li:hover{
-background: ghostwhite;
-}
-/* les a href */
-#menu-demo2 a{
-text-decoration:none;
-display:inline;
-padding:8px 32px;
-color:#000;
-font-family:arial;
-}
-#menu-demo2 ul a{
-padding:8px 0;
-}
-#menu-demo2 li:hover li a{
-color:#000;
-text-transform:inherit;
-}
-#menu-demo2 li:hover a, #menu-demo2 li li:hover a{
-color:#000;
-}
- 
-#menu-demo2, #info ul {
-  width: 100%;
-  margin: 20px;
-  text-align: center;
-  font-size: 20px; 
-}
-
-#menu-demo2, #info ul li{
-  list-style:none;
-  display:inline-block;
-  padding:15px;
-}
-
-#menu-demo2, #info a{
-  color: #ffcdd2;
-  text-decoration:none;
-  position:relative;
-  padding:6px 0;
-  transition: all 0.8s;
-} 
-
-#menu-demo2 a:after{
-  content:'';
-  width:0%;
-  margin-left:10%;
-  height:2px;
-  bottom:0;
-  left:0;
-  border-radius: 40%;
-  transition:all 0.5s;
-  position:static;
-}
-
-#menu-demo2 a:hover:after {
-  background-color: #ffcdd2;
-  width:60%;
-  margin-left:10%;
-  box-shadow: 0px 0px 10px #ef9a9a;
-}
-/* si moche enlever ce qui est en dessous, il s'agit du truc couleur du menu */
-#menu-demo2 .couleur1 a{
-  color: #05B8A4;
-  text-decoration:none;
-  position:relative;
-  padding:6px 0;
-  transition: all 0.8s;
-}
-#menu-demo2 .couleur2 a{
-  color: #E61471;
-  text-decoration:none;
-  position:relative;
-  padding:6px 0;
-  transition: all 0.8s;
-}
-#menu-demo2 .couleur3 a{
-  color: #EA8C23;
-  text-decoration:none;
-  position:relative;
-  padding:6px 0;
-  transition: all 0.8s;
-}
-#menu-demo2 .couleur4 a{
-  color: #C4FF1C;
-  text-decoration:none;
-  position:relative;
-  padding:6px 0;
-  transition: all 0.8s;
-}
-#menu-demo2 .couleur5 a{
-  color: #9C4B9D;
-  text-decoration:none;
-  position:relative;
-  padding:6px 0;
-  transition: all 0.8s;
-}
-
-.couleur1 a:hover:after {
-  background-color: #05B8A4;
-  width:60%;
-  margin-left:10%;
-  box-shadow: 0px 0px 10px #05B8A4;
-}
-.couleur2 a:hover:after {
-  background-color: #E61471;
-  width:60%;
-  margin-left:10%;
-  box-shadow: 0px 0px 10px #E61471;
-}
-.couleur3 a:hover:after {
-  background-color: #EA8C23;
-  width:60%;
-  margin-left:10%;
-  box-shadow: 0px 0px 10px #EA8C23;
-}
-.couleur4 a:hover:after {
-  background-color: #C4FF1C ;
-  width:60%;
-  margin-left:10%;
-  box-shadow: 0px 0px 10px #C4FF1C;
-}
-.couleur5 a:hover:after {
-  background-color: #9C4B9D;
-  width:60%;
-  margin-left:10%;
-  box-shadow: 0px 0px 10px #9C4B9D;
-}
- /* menu fin */

@@ -49,16 +49,18 @@ h5{
     font-size: 15px;
     position: absolute;
     text-decoration: underline;
-    padding-right: 50px;
+    padding-right: 30px;
     right: 0px;
     padding-top: 10px;
     text-align: center;
+    font-weight: bolder;
 }
 
 .topbar_image{
     position: absolute;
+    left: 40px;
+    padding-top: 10px;
 }
-
 /* menu début */
 #menu ul{
     margin:0;
@@ -90,6 +92,7 @@ h5{
     position: absolute;
     top: 50px;
     visibility: hidden;
+    background: black;
 }
 
 #menu ul li:hover ul {
@@ -98,6 +101,7 @@ h5{
 #menu ul li ul li a{
     font-size: 13px;
     text-decoration: none;
+    color: white;
 }
 
 #couleur1 li:hover{
@@ -116,61 +120,28 @@ h5{
     box-shadow: 0px 0px 10px #9C4B9D;
 }
 #couleur1 a:hover{
-    color:#000;
+    color:#fff;
     font-size: 15px;
 }
 #couleur2 a:hover{
-    color:#000;
+    color:#fff;
     font-size: 15px;
 }
 #couleur3 a:hover{
-    color:#000;
+    color:#fff;
     font-size: 15px;
 }
 #couleur4 a:hover{
-    color:#000 ;
+    color:#fff ;
     font-size: 15px;
 }
 #couleur5 a:hover{
-    color:#000;
+    color:#fff;
     font-size: 15px;
 }
 
 /* menu fin */
 
-@media(min-width: 426px) and (max-width: 1000px)
-{
-#menu ul li a{
-    color: #fff
-}
-
-#menu ul ul{
-    position: absolute;
-    top: 50px;
-    visibility: hidden;
-    background: black;
-}
-#couleur1 a:hover{
-    color:#fff;
-    font-size: 15px;
-}
-#couleur2 a:hover{
-    color:#fff;
-    font-size: 15px;
-}
-#couleur3 a:hover{
-    color:#fff;
-    font-size: 15px;
-}
-#couleur4 a:hover{
-    color:#fff;
-    font-size: 15px;
-}
-#couleur5 a:hover{
-    color:#fff;
-    font-size: 15px;
-}
-}
 
 .trait{
     border-collapse: collapse;

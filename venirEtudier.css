@@ -32,6 +32,16 @@ h1{
 /*    font-family: "Tw center bold"; - compatible exclusivement sous mac */
 }
 
+#filiere ul li{
+    list-style-type: square;
+    color: #E71D73
+}
+
+#filiere ul li a{
+    color: black;
+    text-decoration: none;
+}
+
 a:link, a:active, a:any-link{
     color: #E71D73;
 }

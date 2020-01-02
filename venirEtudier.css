@@ -186,7 +186,7 @@ h5{
 
 /* Bas de page */
 /* Responsive Footer */
-footer{margin-top: 17%;
+footer{margin-top: 13.1%;
 }
 #back1{background-color:rgb(253, 156, 198);
 }
@@ -254,6 +254,9 @@ footer{margin-top: 17%;
  #Contacter{margin-left:28%;
     margin-top: -1.2%;
     padding-bottom: 2%;
+}
+#marge{margin-left: 5%;
+    margin-bottom: 1%;
 }
 
 /* Smartphones */

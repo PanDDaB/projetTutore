@@ -1,5 +1,5 @@
 body{
-    background-image: url(images/partir04bis.png);
+    background-image: url(images/partir04tres.png);
     background-repeat: no-repeat;
     margin: 0;
 }
@@ -24,7 +24,7 @@ border-radius: 6px;
 text-align: center; /* A enlever pour remttre bien le texte */
 border-radius: 35px;
 padding: 25px;
-margin: 50%  5%;
+margin: 30%  5%;
 }
 .fond {
     width: 90%;

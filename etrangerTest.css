@@ -23,30 +23,23 @@ div#content{
     padding: 25px;
     margin: 30%  5%;
 }
-.fond {
-    width: 90%;
-    height: auto;
-    border: solid 5px #E71D73;
-    background-color: #fefefe;
-    margin: 0 auto;
-}
+
 
 .topbar{
     font-family: Helvetica Neue Thin;
     font-size: 15px;
     position: absolute;
     text-decoration: underline;
-    padding-right: 30px;
+    padding-right: 35px;
     right: 0px;
-    padding-top: 10px;
+    padding-top: 130px;
     text-align: center;
     font-weight: bolder;
-    color: #fff;
 }
 
 .topbar_image{
     position: absolute;
-    left: 40px;
+    right: 40px;
     padding-top: 10px;
 }
 
@@ -61,7 +54,7 @@ h6{
     line-height:1px;
 }
 h1{
-    margin-top: 5%;
+    margin-top: 15%;
     text-align: center;
     color: #fff;
     font-size: 50px;

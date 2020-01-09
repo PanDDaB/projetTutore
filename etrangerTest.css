@@ -14,7 +14,6 @@ div#container{
 
 }
 
-}
 div#content{
     background-color: ghostwhite;
     margin: -60px 30px 0px;
@@ -24,23 +23,30 @@ div#content{
     padding: 25px;
     margin: 30%  5%;
 }
-
+.fond {
+    width: 90%;
+    height: auto;
+    border: solid 5px #E71D73;
+    background-color: #fefefe;
+    margin: 0 auto;
+}
 
 .topbar{
     font-family: Helvetica Neue Thin;
     font-size: 15px;
     position: absolute;
     text-decoration: underline;
-    padding-right: 35px;
+    padding-right: 30px;
     right: 0px;
-    padding-top: 130px;
+    padding-top: 10px;
     text-align: center;
     font-weight: bolder;
+    color: #fff;
 }
 
 .topbar_image{
     position: absolute;
-    right: 40px;
+    left: 40px;
     padding-top: 10px;
 }
 
@@ -55,7 +61,7 @@ h6{
     line-height:1px;
 }
 h1{
-    margin-top: 15%;
+    margin-top: 5%;
     text-align: center;
     color: #fff;
     font-size: 50px;
@@ -84,7 +90,7 @@ a, p, li{
 /* menu début */
 #menu ul{
     margin:0;
-    padding: 25;
+    padding:0;
     line-height: 60px;
     z-index:9999;
 }

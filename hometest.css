@@ -392,6 +392,10 @@ button:hover {
     margin-top: -1.2%;
     padding-bottom: 2%;
 }
+#marge{margin-left: 5%;
+    margin-bottom: 1%;
+    font-size: 15px;
+}
 
 /* Smartphones */
 @media(min-width: 0px) and (max-width: 425px)

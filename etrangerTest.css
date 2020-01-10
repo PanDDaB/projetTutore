@@ -87,6 +87,7 @@ a:link, a:active, a:any-link{
     text-decoration: none;
 }
 
+
 a, p, li{
     font-family: helvetica, arial, sans-serif;
 }
@@ -198,7 +199,7 @@ a, p, li{
 
 /* Bas de page */
 /* Responsive Footer */
-footer{margin-top: -16%;
+footer{margin-top: -15%;
 }
 #back1{background-color:rgb(253, 156, 198);
 }

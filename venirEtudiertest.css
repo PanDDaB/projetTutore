@@ -190,7 +190,7 @@ h5{
 
 /* Bas de page */
 /* Responsive Footer */
-footer{margin-top: 13.1%;
+footer{margin-top: -16.1%;
 }
 #back1{background-color:rgb(253, 156, 198);
 }
@@ -291,6 +291,8 @@ footer{margin-top: 13.1%;
     margin-bottom: 5%;
     margin-top: 5%;
 }
+footer{margin-top: -29%;
+}
 }
 
 /* Tablettes */
@@ -325,6 +327,8 @@ footer{margin-top: 13.1%;
     border: 1px solid black;
     margin-bottom: 5%;
     margin-top: 5%;
+}
+footer{margin-top: -29%;
 }
 }
 

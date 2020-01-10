@@ -189,7 +189,8 @@ h5{
 
 /* Bas de page */
 /* Responsive Footer */
-footer{margin-top: 13.1%;
+
+footer{margin-top: -13.1%;
 }
 #back1{background-color:rgb(253, 156, 198);
 }

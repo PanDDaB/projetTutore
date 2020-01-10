@@ -23,6 +23,23 @@ div#content{
     padding: 25px;
     margin: 30%  2%;
 }
+
+.flex-content{
+  display: flex;
+  justify-content: space-around;
+}
+
+.pic{
+  max-width: 300px;
+}
+
+.pic img{
+  max-width: 100%;
+  height: auto;
+
+}
+
+
 .fond {
     width: 90%;
     height: auto;
@@ -182,8 +199,14 @@ a, p, li{
     height: 3% ;
     width: 3%;
 }
-.deroul div{ display:none; }
-.deroul:hover div{ display:block }
+.deroul div{
+  display:none;
+ }
+
+.deroul:hover div{
+   display:block;
+   width: 500px;
+  }
 
 
 #oblic{

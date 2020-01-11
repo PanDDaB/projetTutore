@@ -38,7 +38,7 @@ div#content{
 .pic img{
   max-width: 100%;
   height: auto;
-  opacity: 0.8;
+  /* opacity: 0.8; */
   border-radius: 100%;
 
 }
@@ -175,7 +175,7 @@ a, p, li{
 
 .submenu-list a:hover{
     color:#fff;
-    font-size: 15px;
+
 }
 
 /* menu fin */

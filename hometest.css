@@ -400,6 +400,8 @@ button:hover {
 /* Smartphones */
 @media(min-width: 0px) and (max-width: 425px)
 {
+#back2{background-color: rgb(201, 196, 196);
+}
 #Rejoignez{display: inline;
 }
 #Rejoignez img{min-width: 4%;
@@ -428,6 +430,8 @@ button:hover {
 /* Tablettes */
 @media(min-width: 426px) and (max-width: 1249px)
 {
+#back2{background-color: rgb(201, 196, 196);
+}
 #Rejoignez{display: inline;
 }
 #Rejoignez img{min-width: 3%;

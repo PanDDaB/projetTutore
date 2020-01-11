@@ -150,9 +150,9 @@ h5{
 }
 
 /* menu fin */
-ul {list-style: none}
+#puce {list-style: none}
 
-li::before {
+#puce li::before {
     content: "▪";
     color: #E61471;
     width: 1em;
@@ -172,9 +172,6 @@ li::before {
     text-decoration: none;
 }
 
-#lien ul li{
-    list-style-type: circle;
-}
 
 /* Bas de page */
 /* Responsive Footer */

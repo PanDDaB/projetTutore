@@ -251,8 +251,7 @@ footer{margin-top: -16%;
 }
 .taille{font-size: 13px;
 }
-.gras{font-weight: bolder;
-    font-size: 18px;
+.gras{font-size: 18px;
     text-decoration: underline;
 }
 #Souligne a{text-decoration: none;
@@ -287,6 +286,8 @@ footer{margin-top: -16%;
 /* Smartphones */
 @media(min-width: 0px) and (max-width: 425px)
 {
+footer{margin-top: -28%;
+}
 #back2{background-color: rgb(255, 231, 235);
 }
 #Rejoignez{display: inline;
@@ -312,13 +313,13 @@ footer{margin-top: -16%;
     margin-bottom: 5%;
     margin-top: 5%;
 }
-footer{margin-top: -29%;
-}
 }
 
 /* Tablettes */
 @media(min-width: 426px) and (max-width: 1249px)
 {
+footer{margin-top: -28%;
+}
 #back2{background-color: rgb(255, 231, 235);
 }
 #Rejoignez{display: inline;
@@ -348,8 +349,6 @@ footer{margin-top: -29%;
     border: 1px solid black;
     margin-bottom: 5%;
     margin-top: 5%;
-}
-footer{margin-top: -29%;
 }
 }
 

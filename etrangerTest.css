@@ -25,16 +25,21 @@ div#content{
 
 .flex-content{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .pic{
-  max-width: 300px;
+  min-width: 400px;
+  max-width: 400px;
+  margin-right: 50px;
+  margin-top: 100px;
 }
 
 .pic img{
   max-width: 100%;
   height: auto;
+  opacity: 0.9;
+  border-radius: 100%;
 
 }
 
@@ -167,23 +172,8 @@ a, p, li{
 #couleur5 li:hover{
     box-shadow: 0px 0px 10px #9C4B9D;
 }
-#couleur1 a:hover{
-    color:#fff;
-    font-size: 15px;
-}
-#couleur2 a:hover{
-    color:#fff;
-    font-size: 15px;
-}
-#couleur3 a:hover{
-    color:#fff;
-    font-size: 15px;
-}
-#couleur4 a:hover{
-    color:#fff;
-    font-size: 15px;
-}
-#couleur5 a:hover{
+
+.submenu-list a:hover{
     color:#fff;
     font-size: 15px;
 }
@@ -204,7 +194,6 @@ a, p, li{
 
 .deroul:hover div{
    display:block;
-   width: 500px;
   }
 
 

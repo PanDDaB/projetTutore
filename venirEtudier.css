@@ -91,7 +91,6 @@ h5{
     padding:0;
     line-height: 60px;
     z-index:9999;
-    margin-top: -19px;
 }
 
 #menu li{
@@ -144,28 +143,13 @@ h5{
 #couleur5 li:hover{
     box-shadow: 0px 0px 10px #9C4B9D;
 }
-#couleur1 a:hover{
-    color:#fff;
-    font-size: 15px;
-}
-#couleur2 a:hover{
-    color:#fff;
-    font-size: 15px;
-}
-#couleur3 a:hover{
-    color:#fff;
-    font-size: 15px;
-}
-#couleur4 a:hover{
-    color:#fff;
-    font-size: 15px;
-}
-#couleur5 a:hover{
+
+.submenu-list a:hover{
     color:#fff;
     font-size: 15px;
 }
 
-/* menu fin */x
+/* menu fin */
 
 
 #oblic{

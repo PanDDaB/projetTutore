@@ -150,7 +150,14 @@ h5{
 }
 
 /* menu fin */
+ul {list-style: none}
 
+li::before {
+    content: "▪";
+    color: #E61471;
+    width: 1em;
+    margin-left: -1em;
+}
 
 #oblic{
     max-width:  100%;
@@ -165,10 +172,6 @@ h5{
     text-decoration: none;
 }
 
-#lien ul li{
-    list-style-type: circle;
-}
-}
 
 
 /* Bas de page */

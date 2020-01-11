@@ -121,96 +121,221 @@ h1{
 
 
 /* Bas de page */
-#back1{background-color: rgb(224, 107, 129);
+footer{margin-top: -6%;
 }
-#back2{background-color: pink;
+#back1{background-color:rgb(253, 156, 198);
 }
-#Rejoignez{margin-top: 13%;
-    margin-bottom: -6.5%;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 3%;
-    padding: 0.5%;
-    margin-left: 2%;
+#Rejoignez{font-family: Helvetica Neue Thin;
+    padding: 1%;
+    font-size: 15px;
+    margin-top: -13%;
 }
-#Rejoignez img{width: 2%;
-    height: 2%;
+#Rejoignez img {max-width: 100%;
+    min-width: 2%;
+    max-width: 2%;
 }
-#Contact{text-align: right;
+#Contacter{text-align: right;
     margin-top: -8.5%;
-    font-family: Helvetica;
     margin-right: 18.25%;
-}
-
+} 
 #Formation{margin-left: 2.8%;
     margin-top: 6.5%;
     padding: 2.5%;
-}
+    font-family: Helvetica Neue Thin;
+} 
 #Internationnal{margin-left: 23%;
-    margin-top: -11.3%;
+    margin-top: -10.3%;
+    font-family: Helvetica Neue Thin;
 }
 #vie{margin-left: 41%;
     margin-top:-3.1%;
+    font-family: Helvetica Neue Thin;
 }
 #Entreprise{margin-left: 63%;
-    margin-top: -8.4%;
+    margin-top: -7.8%;
+    font-family: Helvetica Neue Thin;
 }
 #IUT{margin-left: 85%;
-    margin-top: -4.8%;
+    margin-top: -4.5%;
+    font-family: Helvetica Neue Thin;
 }
-#Souligne a{text-decoration: none;
-    color: black;
-}
-#bot{margin-top: 5%;
-}
-#bot a{text-decoration: none;
-    color: black;
-    font-size: 16px;
-}
-#Annuaire{margin-top: 2%;
-    margin-left: 4%;
-}
-#Mention{margin-left: 14%;
-    margin-top: -1.2%;
-}
-#Contacter{margin-left:28%;
-    margin-top: -1.2%;
-}
-
-#imguniv{margin-left: 90%;
-    width: 10%;
-    height: 10%;
+.taille{font-size: 13px;
 }
 .gras{font-weight: bolder;
     font-size: 18px;
     text-decoration: underline;
 }
-.taille{font-size: 13px;
+#Souligne a{text-decoration: none;
+    color: black;
+}
+#bot a{text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: Helvetica Neue Thin;
+}
+#bot img{width: 10%;
+    height: 10%;
+    margin-left: 90%;
+    margin-top: 5%;
+}
+#Annuaire{margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: -4.5%;
+}
+#Mention{margin-left: 14%;
+    margin-top: 3.5%;
+    margin-bottom: -0.8%;
+}
+ #Contacter{margin-left:28%;
+    margin-top: -1.2%;
+    padding-bottom: 2%;
+}
+#marge{margin-left: 5%;
+    margin-bottom: 1%;
+    font-size: 15px;
 }
 
-html, body {
-	height: 100%;
-	margin: 0; padding: 0;
+/* Smartphones */
+@media(min-width: 0px) and (max-width: 425px)
+{
+#Rejoignez{display: inline;
 }
-body {
-	display : table;
-	width: 100%;
+#Rejoignez img{min-width: 4%;
+    max-width: 4%;
 }
-footer {
-	display : table-row;
-	height: 100px;
+#back2{background-color: rgb(255, 231, 235);
+}
+#Formation{display: inline;
+}
+#Internationnal{display: inline;
+}
+#vie{display: inline;
+}
+#Entreprise{display: inline;
+}
+#IUT{display: inline;
+}
+#bot{display: inline;
+}
+.trait{border-collapse: collapse;
+    border: 1px solid black;
+    padding: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+footer{margin-top: -18%;
+}
 }
 
-
-li {min-width: 19%;
-    font-size: 17px;
+/* Tablettes */
+@media(min-width: 426px) and (max-width: 1249px)
+{
+#Rejoignez{display: inline;
+}
+#Rejoignez img{min-width: 3%;
+    max-width: 3%;
+}
+#back2{background-color: rgb(255, 231, 235);
+}
+#Formation{display: inline;
+}
+#Internationnal{display: inline;
+}
+#vie{display: inline;
+}
+#Entreprise{display: inline;
+}
+#IUT{display: inline;
+}
+#bot{display: inline;
+}
+#Annuaire{display: inline;
+}
+#Mention{display: inline;
+}
+#Contacter{display: inline;
+}
+.trait{border-collapse: collapse;
+    border: 1px solid black;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+footer{margin-top: -18%;
+}
 }
 
-#container{
-    max-width: 80%;
-    margin:auto;
+/* Ordinateurs portables */ 
+@media(min-width: 1250px) and (max-width: 1388px)
+{
+#Rejoignez{position: absolute;
+    background-color:rgb(253, 156, 198);
+    width: 98%;
 }
-img.fond{
-    max-width: 80%;
-    margin:10%;
-    text-align: center;
+#Formation{position: absolute;
+    margin-top: -8%;
+    }
+#Internationnal{position: absolute;
+    margin-top: -5.6%;
 }
+#vie{position: absolute;
+    margin-top: -5.6%;
+}
+#Entreprise{position: absolute;
+    margin-top: -5.6%;
+}
+#IUT{position: absolute;
+    margin-top: -5.6%;
+}
+#bot{margin-top: 10%;
+    margin-left: 4%;
+}
+#Annuaire{position: absolute;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+#Mention{position: absolute;
+    margin-top: 8%;
+}
+#Contacter{position: absolute;
+    margin-top: 8%;
+}
+}
+
+/* Ecran */
+
+@media(min-width: 1389px)
+{
+#Rejoignez{position: absolute;
+    background-color: rgb(253, 156, 198);
+    width: 98%;
+}
+#Formation{position: absolute;
+    margin-top: -8%;
+}
+#Internationnal{position: absolute;
+    margin-top: -5.6%;
+}
+#vie{position: absolute;
+    margin-top: -5.6%;
+}
+#Entreprise{position: absolute;
+    margin-top: -5.6%;
+}
+#IUT{position: absolute;
+    margin-top: -5.6%;
+}
+#bot{margin-top: 10%;
+    margin-left: 4%;
+}
+#Annuaire{position: absolute;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+#Mention{position: absolute;
+    margin-top: 8%;
+}
+#Contacter{position: absolute;
+    margin-top: 8%;
+}
+}
+

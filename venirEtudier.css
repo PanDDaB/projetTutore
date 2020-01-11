@@ -117,7 +117,6 @@ h5{
     padding:0;
     line-height: 60px;
     z-index:9999;
-    margin-top: -19px;
 }
 
 #menu li{
@@ -170,29 +169,21 @@ h5{
 #couleur5 li:hover{
     box-shadow: 0px 0px 10px #9C4B9D;
 }
-#couleur1 a:hover{
-    color:#fff;
-    font-size: 15px;
-}
-#couleur2 a:hover{
-    color:#fff;
-    font-size: 15px;
-}
-#couleur3 a:hover{
-    color:#fff;
-    font-size: 15px;
-}
-#couleur4 a:hover{
-    color:#fff;
-    font-size: 15px;
-}
-#couleur5 a:hover{
+
+.submenu-list a:hover{
     color:#fff;
     font-size: 15px;
 }
 
-/* menu fin */x
+/* menu fin */
+#puce {list-style: none}
 
+#puce li::before {
+    content: "▪";
+    color: #E61471;
+    width: 1em;
+    margin-left: -1em;
+}
 
 #oblic{
     max-width:  100%;
@@ -207,16 +198,10 @@ h5{
     text-decoration: none;
 }
 
-#lien ul li{
-    list-style-type: circle;
-}
-}
-
 
 /* Bas de page */
 /* Responsive Footer */
-
-footer{margin-top: -13.1%;
+footer{margin-top: -16%;
 }
 #back1{background-color:rgb(253, 156, 198);
 }
@@ -292,6 +277,8 @@ footer{margin-top: -13.1%;
 /* Smartphones */
 @media(min-width: 0px) and (max-width: 425px)
 {
+footer{margin-top: -28%;
+}
 #back2{background-color: rgb(255, 231, 235);
 }
 #Rejoignez{display: inline;
@@ -322,6 +309,8 @@ footer{margin-top: -13.1%;
 /* Tablettes */
 @media(min-width: 426px) and (max-width: 1249px)
 {
+footer{margin-top: -28%;
+}
 #back2{background-color: rgb(255, 231, 235);
 }
 #Rejoignez{display: inline;

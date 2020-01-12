@@ -26,7 +26,7 @@ body {
 }
 
 header {
-    background: url(images/partirEtranger.jpg);
+    background: url(../images/partirEtranger.jpg);
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -181,7 +181,7 @@ a:hover {
 /* Section */
 
 .img1 {
-    background: url('images/partir04.jpg');
+    background: url('../images/partir04.jpg');
     height: 108rem;
     background-size: cover;
     background-position: center;
@@ -253,7 +253,7 @@ button:hover {
 /* Deuxieme section */
 
 .img2 {
-    background: url(images/venirEtudier.jpg);
+    background: url(../images/venirEtudier.jpg);
     height: 108rem;
     background-size: cover;
     background-position: center;
@@ -264,7 +264,7 @@ button:hover {
 /* Troisieme section */
 
 .img3 {
-    background: url('images/proposition00.jpg');
+    background: url('../images/proposition00.jpg');
     height: 108rem;
     background-size: cover;
     background-position: center;
@@ -274,7 +274,7 @@ button:hover {
 /* Quatrième section */
 
 .img4 {
-    background: url('images/conseil00.jpg');
+    background: url('../images/conseil00.jpg');
     height: 108rem;
     background-size: cover;
     background-position: center;
@@ -284,7 +284,7 @@ button:hover {
 /* Cinquième section */
 
 .img5 {
-    background: url('images/cv01.jpg');
+    background: url('../images/cv01.jpg');
     height: 108rem;
     background-size: cover;
     background-position: center;
@@ -339,12 +339,12 @@ button:hover {
 #Contacter{text-align: right;
     margin-top: -8.5%;
     margin-right: 18.25%;
-} 
+}
 #Formation{margin-left: 2.8%;
     margin-top: 6.5%;
     padding: 2.5%;
     font-family: Helvetica Neue Thin;
-} 
+}
 #Internationnal{margin-left: 23%;
     margin-top: -10.3%;
     font-family: Helvetica Neue Thin;
@@ -462,7 +462,7 @@ button:hover {
 }
 }
 
-/* Ordinateurs portables */ 
+/* Ordinateurs portables */
 @media(min-width: 1250px) and (max-width: 1388px)
 {
 #Rejoignez{position: absolute;

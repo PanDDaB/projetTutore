@@ -1,0 +1,538 @@
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.topbar{
+    font-family: Helvetica Neue Thin;
+    font-size: 13px;
+    position: absolute;
+    right: 20px;
+    text-decoration: underline;
+    padding-left: 2px;
+    padding-top: 130px;
+    text-align: center;
+}
+
+.topbar_image{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+header {
+    background: url(../images/partirEtranger.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-family: Tw cent bold;
+    font-size: 13rem;
+    margin: 0;
+    position: relative;
+    top: 25rem;
+    letter-spacing: 2px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 0;
+}
+
+#profil{
+    color: black;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: black;
+}
+
+/* menu début */
+#menu ul{
+    margin:0;
+    padding:0;
+    line-height: 60px;
+    z-index:9999;
+}
+
+#menu li{
+    list-style: none;
+    float: left;
+    position: relative;
+}
+
+#menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    width: 200px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    background: rgba(255,255,255,0.3);
+    font-family: Helvetica Neue Thin;
+}
+
+#menu ul ul{
+    position: absolute;
+    top: 50px;
+    visibility: hidden;
+}
+
+#menu ul li:hover ul {
+    visibility: visible;
+}
+#menu ul li ul li a{
+    font-size: 13px;
+    text-decoration: none;
+}
+
+#couleur1 li:hover{
+    box-shadow: 0px 0px 10px  #05B8A4;
+}
+#couleur2 li:hover{
+    box-shadow: 0px 0px 10px #E61471;
+}
+#couleur3 li:hover{
+    box-shadow: 0px 0px 10px  #EA8C23;
+}
+#couleur4 li:hover{
+    box-shadow: 0px 0px 10px #C4FF1C ;
+}
+#couleur5 li:hover{
+    box-shadow: 0px 0px 10px #9C4B9D;
+}
+#couleur1 a:hover{
+    color:#000;
+    font-size: 15px;
+}
+#couleur2 a:hover{
+    color:#000;
+    font-size: 15px;
+}
+#couleur3 a:hover{
+    color:#000;
+    font-size: 15px;
+}
+#couleur4 a:hover{
+    color:#000 ;
+    font-size: 15px;
+}
+#couleur5 a:hover{
+    color:#000;
+    font-size: 15px;
+}
+
+/* menu fin */
+
+@media(min-width: 426px) and (max-width: 1000px)
+{
+#menu ul li a{
+    color: #fff
+}
+
+#menu ul ul{
+    position: absolute;
+    top: 50px;
+    visibility: hidden;
+    background: black;
+}
+#couleur1 a:hover{
+    color:#fff;
+    font-size: 15px;
+}
+#couleur2 a:hover{
+    color:#fff;
+    font-size: 15px;
+}
+#couleur3 a:hover{
+    color:#fff;
+    font-size: 15px;
+}
+#couleur4 a:hover{
+    color:#fff;
+    font-size: 15px;
+}
+#couleur5 a:hover{
+    color:#fff;
+    font-size: 15px;
+}
+
+}
+
+/* Section */
+
+.img1 {
+    background: url('../images/partir04.jpg');
+    height: 108rem;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.box {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 82rem;
+    height: 45rem;
+    text-align: center;
+    background: rgba(0,0,0,0.3);
+    color: white;
+    line-height: 1.5rem;
+    font-family: sans-serif;
+    font-weight: 100;
+    padding: 3.5rem;
+}
+
+h2, h3, h4, h5 {
+    font-size: 4rem;
+    font-family: Tw cent bold;
+    line-height: 1.25rem;
+}
+
+.text {
+    font-family: Helvetica Neue Thin;
+    font-size: 1.8rem;
+    letter-spacing: 0.15rem;
+    margin: 0 3rem;
+    line-height: 2.5rem;
+}
+
+.learn{
+    font-family: Helvetica Neue Thin;
+    background: transparent;
+    margin-top: 3rem;
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 2.5rem;
+    width: 25rem;
+    transition: all 0.4s ease-in;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    display: inline-block;
+}
+.learn a:link {
+    text-decoration:none;
+}
+
+.learn:hover a {
+  color: black;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+
+
+.learn:hover {
+    background: rgba(255,255,255,0.9);
+}
+
+/* Deuxieme section */
+
+.img2 {
+    background: url(../images/venirEtudier.jpg);
+    height: 108rem;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/* Troisieme section */
+
+.img3 {
+    background: url('../images/proposition00.jpg');
+    height: 108rem;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Quatrième section */
+
+.img4 {
+    background: url('../images/conseil00.jpg');
+    height: 108rem;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Cinquième section */
+
+.img5 {
+    background: url('../images/cv01.jpg');
+    height: 108rem;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Animation */
+
+.box1 {
+    opacity: 0;
+    transition: all 0.4s linear;
+}
+.box2 {
+    opacity: 0;
+    transition: all 0.4s linear;
+}
+.box3 {
+    opacity: 0;
+    transition: all 0.4s linear;
+}
+
+.box4 {
+    opacity: 0;
+    transition: all 0.4s linear;
+}
+
+.box5 {
+    opacity: 0;
+    transition: all 0.4s linear;
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+/* Bas de page */
+/* Responsive Footer */
+#back1{background-color:rgb(90, 90, 88);
+}
+#back2{background-color:white;
+}
+#Rejoignez{font-family: Helvetica Neue Thin;
+    padding: 1%;
+    font-size: 15px;
+    margin-top: -13%;
+    color: whitesmoke;
+}
+#Rejoignez img {max-width: 100%;
+    min-width: 2%;
+    max-width: 2%;
+}
+#Contacter{text-align: right;
+    margin-top: -8.5%;
+    margin-right: 18.25%;
+}
+#Formation{margin-left: 2.8%;
+    margin-top: 6.5%;
+    padding: 2.5%;
+    font-family: Helvetica Neue Thin;
+}
+#Internationnal{margin-left: 23%;
+    margin-top: -10.3%;
+    font-family: Helvetica Neue Thin;
+}
+#vie{margin-left: 41%;
+    margin-top:-3.1%;
+    font-family: Helvetica Neue Thin;
+}
+#Entreprise{margin-left: 63%;
+    margin-top: -7.8%;
+    font-family: Helvetica Neue Thin;
+}
+#IUT{margin-left: 85%;
+    margin-top: -4.5%;
+    font-family: Helvetica Neue Thin;
+}
+.taille{font-size: 13px;
+}
+.gras{font-weight: bolder;
+    font-size: 18px;
+    text-decoration: underline;
+}
+#Souligne a{text-decoration: none;
+    color: black;
+}
+#bot a{text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: Helvetica Neue Thin;
+}
+#bot img{width: 10%;
+    height: 10%;
+    margin-left: 90%;
+    margin-top: 5%;
+}
+#Annuaire{margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: -4.5%;
+}
+#Mention{margin-left: 14%;
+    margin-top: 3.5%;
+    margin-bottom: -0.8%;
+}
+ #Contacter{margin-left:28%;
+    margin-top: -1.2%;
+    padding-bottom: 2%;
+}
+#marge{margin-left: 5%;
+    margin-bottom: 1%;
+    font-size: 15px;
+}
+
+/* Smartphones */
+@media(min-width: 0px) and (max-width: 425px)
+{
+#back2{background-color: rgb(201, 196, 196);
+}
+#Rejoignez{display: inline;
+}
+#Rejoignez img{min-width: 4%;
+    max-width: 4%;
+}
+#Formation{display: inline;
+}
+#Internationnal{display: inline;
+}
+#vie{display: inline;
+}
+#Entreprise{display: inline;
+}
+#IUT{display: inline;
+}
+#bot{display: inline;
+}
+.trait{border-collapse: collapse;
+    border: 1px solid black;
+    padding: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+}
+
+/* Tablettes */
+@media(min-width: 426px) and (max-width: 1249px)
+{
+#back2{background-color: rgb(201, 196, 196);
+}
+#Rejoignez{display: inline;
+}
+#Rejoignez img{min-width: 3%;
+    max-width: 3%;
+}
+#Formation{display: inline;
+}
+#Internationnal{display: inline;
+}
+#vie{display: inline;
+}
+#Entreprise{display: inline;
+}
+#IUT{display: inline;
+}
+#bot{display: inline;
+}
+#Annuaire{display: inline;
+}
+#Mention{display: inline;
+}
+#Contacter{display: inline;
+}
+.trait{border-collapse: collapse;
+    border: 1px solid black;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+}
+
+/* Ordinateurs portables */
+@media(min-width: 1250px) and (max-width: 1388px)
+{
+#Rejoignez{position: absolute;
+    background-color:rgb(90, 90, 88);
+    width: 98%;
+}
+#Formation{position: absolute;
+    margin-top: -8%;
+    }
+#Internationnal{position: absolute;
+    margin-top: -5.6%;
+}
+#vie{position: absolute;
+    margin-top: -5.6%;
+}
+#Entreprise{position: absolute;
+    margin-top: -5.6%;
+}
+#IUT{position: absolute;
+    margin-top: -5.6%;
+}
+#bot{margin-top: 10%;
+    margin-left: 4%;
+}
+#Annuaire{position: absolute;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+#Mention{position: absolute;
+    margin-top: 8%;
+}
+#Contacter{position: absolute;
+    margin-top: 8%;
+}
+}
+
+/* Ecran */
+
+@media(min-width: 1389px)
+{
+#Rejoignez{position: absolute;
+    background-color: rgb(90, 90, 88);
+    width: 98%;
+}
+#Formation{position: absolute;
+    margin-top: -8%;
+}
+#Internationnal{position: absolute;
+    margin-top: -5.6%;
+}
+#vie{position: absolute;
+    margin-top: -5.6%;
+}
+#Entreprise{position: absolute;
+    margin-top: -5.6%;
+}
+#IUT{position: absolute;
+    margin-top: -5.6%;
+}
+#bot{margin-top: 10%;
+    margin-left: 4%;
+}
+#Annuaire{position: absolute;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+#Mention{position: absolute;
+    margin-top: 8%;
+}
+#Contacter{position: absolute;
+    margin-top: 8%;
+}
+}

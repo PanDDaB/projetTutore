@@ -3,34 +3,34 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href=formulaire.css>
+    <link rel="stylesheet" href=../css/formulaire.css>
     <title> FORMULAIRE </title>
 </head>
 <body>
 <h1> PROPOSITION DE STAGE </h1>
- 
+
    <fieldset>
-       <legend>Vos coordonnées</legend> 
+       <legend>Vos coordonnées</legend>
 
        <p><label class="coordonnees" for="nom"> Nom particulier/Entreprise : </label>
            <input type="text" name="nom" id="nom" /></p>
-       
+
        <p><label class="coordonnees" for="description"> Description de l'entreprise :</label>
            <textarea name="description" id="description" rows="7" cols="30"></textarea> </p>
-              
+
        <p><label class="coordonnees" for="email"> Adresse e-mail : </label>
            <input type="email" name="email" id="email" /></p>
-       
+
        <p><label class="coordonnees" for="tel"> Numéro de téléphone : </label>
            <input type="tel" name="tel" id="tel" /></p>
-       
+
    </fieldset>
 
     <fieldset>
         <legend> Informations complémentaires </legend>
-        
+
         <form method="post" action="traitement.php">
-            
+
         <p>
             <label class="complementaire" for="qui"> A qui s'adresse le stage ?</label>
                 <select name="qui" id="qui" >
@@ -46,8 +46,8 @@
             <label class="complementaire" for="requete"> Description du stage : </label>
             <textarea name="requete" id="requete" rows="7" cols="30"></textarea></p>
 
-        
-   
+
+
         <p><label class="complementaire" for="pays"> Pays proposé :</label>
             <select name="pays" id="pays">
                 <option value="rien"></option>
@@ -239,7 +239,7 @@
                <option value="togo">Togo</option>
                <option value="tunisie">Tunisie</option>
                <option value="zambie">Zambie</option>
-               <option value="zimbabwe">Zimbabwe</option>  
+               <option value="zimbabwe">Zimbabwe</option>
            </optgroup>
            <optgroup label="Océanie">
                <option value="australie">Australie</option>
@@ -268,10 +268,10 @@
                <option value="avril-juin">Début avril à fin juin</option>
                <option value="autre">AUTRE</option>
            </select>
-            
+
         <p><label class="complementaire" for="fichier"> Joindre un document : </label>
        <input type="file" name="fichier" id="fichier"> </p>
-            
+
             <p> <input type="checkbox" required>
        <label for="enregistre"> En cliquant sur Envoyer, vous acceptez les Conditions d'utilisation et la Politique de confidentialité.</label></p>
 </form>

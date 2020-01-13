@@ -44,7 +44,7 @@ div#content{
   min-width: 300px;
   max-width: 300px;
   margin-right: 50px;
-  margin-top: 100px;
+  margin-top: 10px;
 }
 
 
@@ -67,16 +67,6 @@ h1{
 /*    font-family: "Tw center bold"; - compatible exclusivement sous mac */
 }
 
-#filiere ul {
-    list-style-type: square;
-    color: #E71D73;
-}
-
-
-#filiere ul li a{
-    color: black;
-    text-decoration: none;
-}
 
 a, p, li{
 /*    font-family: "Tw center bold"; - compatible exclusivement sous mac */
@@ -176,7 +166,9 @@ h5{
 }
 
 /* menu fin */
-#puce {list-style: none}
+#puce {
+    list-style: none;
+}
 
 #puce li::before {
     content: "▪";

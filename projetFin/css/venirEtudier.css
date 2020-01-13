@@ -21,6 +21,17 @@ div#content{
     padding: 25px;
     margin: 30%  5%;
 }
+.langue{
+  width: 50px;
+  height: auto;
+
+}
+.drapeau{
+  padding-top: 220px;
+  position: absolute;
+  padding-right: 30px;
+  right: 0px;
+}
 
 .flex-content{
   display: flex;

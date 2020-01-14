@@ -105,11 +105,11 @@ h3, h5{
     font-size: 20px
 /*    font-family: "Tw center bold"; - compatible exclusivement sous mac */
 }
-#center{
+.center{
     text-align: center;
 }
 
-#center li{
+.center li{
   list-style-position: inside;
 }
 

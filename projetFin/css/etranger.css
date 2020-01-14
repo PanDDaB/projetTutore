@@ -105,11 +105,11 @@ h3, h5{
     font-size: 20px
 /*    font-family: "Tw center bold"; - compatible exclusivement sous mac */
 }
-#center{
+.center{
     text-align: center;
 }
 
-#center li{
+.center li{
   list-style-position: inside;
 }
 
@@ -360,6 +360,12 @@ footer{margin-top: -28%;
     margin-bottom: 5%;
     margin-top: 5%;
 }
+.drapeau{
+  position: absolute;
+  padding-right: 2%;
+  right: 0px;
+  margin-top: 25%;
+}
 }
 
 /* Ordinateurs portables */
@@ -397,7 +403,7 @@ footer{margin-top: -28%;
 #Contacter{position: absolute;
     margin-top: 8%;
 }
-}
+
 
 /* Ecran */
 

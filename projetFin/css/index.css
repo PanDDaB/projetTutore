@@ -14,9 +14,9 @@ body {
 }
 .drapeau{
     position: absolute;
-    padding-right: 7%;
+    padding-right: 0.8%;
     right: 0px;
-    margin-top: 1%;
+    margin-top: 15%;
 }
 
 .topbar{

@@ -16,7 +16,7 @@ body {
     position: absolute;
     padding-right: 0.8%;
     right: 0px;
-    margin-top: 15%;
+    margin-top: 13%;
 }
 
 .topbar{
@@ -58,7 +58,7 @@ h1 {
     z-index: 0;
 }
 
-#profil{
+.profil{
     color: black;
 }
 a {
@@ -470,6 +470,12 @@ button:hover {
     border: 1px solid black;
     margin-bottom: 5%;
     margin-top: 5%;
+}
+.drapeau{
+  position: absolute;
+  padding-right: 2%;
+  right: 0px;
+  margin-top: 25%;
 }
 }
 

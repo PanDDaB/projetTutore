@@ -28,9 +28,9 @@ div#content{
 }
 .drapeau{
     position: absolute;
-    padding-right: 8%;
+    padding-right: 2%;
     right: 0px;
-    margin-top: 1%;
+    margin-top: 15%;
 }
 
 .flex-content{

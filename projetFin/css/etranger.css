@@ -360,6 +360,12 @@ footer{margin-top: -28%;
     margin-bottom: 5%;
     margin-top: 5%;
 }
+.drapeau{
+  position: absolute;
+  padding-right: 2%;
+  right: 0px;
+  margin-top: 25%;
+}
 }
 
 /* Ordinateurs portables */
@@ -397,7 +403,7 @@ footer{margin-top: -28%;
 #Contacter{position: absolute;
     margin-top: 8%;
 }
-}
+
 
 /* Ecran */
 

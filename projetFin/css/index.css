@@ -13,10 +13,10 @@ body {
 
 }
 .drapeau{
-  padding-top: 200px;
-  position: absolute;
-  padding-right: 30px;
-  right: 0px;
+    position: absolute;
+    padding-right: 7%;
+    right: 0px;
+    margin-top: 1%;
 }
 
 .topbar{

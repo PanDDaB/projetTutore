@@ -27,10 +27,10 @@ div#content{
 
 }
 .drapeau{
-  padding-top: 220px;
-  position: absolute;
-  padding-right: 30px;
-  right: 0px;
+    position: absolute;
+    padding-right: 8%;
+    right: 0px;
+    margin-top: 1%;
 }
 
 .flex-content{

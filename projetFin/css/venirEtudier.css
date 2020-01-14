@@ -75,13 +75,10 @@ h1{
     color: #FFFF;
     font-size: 50px;
     font-weight: normal;
-/*    font-family: "Tw center bold"; - compatible exclusivement sous mac */
 }
 
 
-a, p, li{
-/*    font-family: "Tw center bold"; - compatible exclusivement sous mac */
-}
+
 
 a{
     color: black;
@@ -177,18 +174,18 @@ h5{
 }
 
 /* menu fin */
-#puce {
+.puce {
     list-style: none;
 }
 
-#puce li::before {
+.puce li::before {
     content: "▪";
     color: #E61471;
     width: 1em;
     margin-left: -1em;
 }
 
-#oblic{
+.oblic{
     max-width:  100%;
     font-weight: 600;
     color: dimgrey;
